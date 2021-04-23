@@ -2,6 +2,7 @@ package me.eonexe.revolution.module;
 
 import java.util.ArrayList;
 
+import me.eonexe.revolution.module.Beta.AutoEZ;
 import me.eonexe.revolution.module.Combat.*;
 import me.eonexe.revolution.module.Misc.RpcModule;
 import me.eonexe.revolution.module.Movement.*;
@@ -66,6 +67,8 @@ public class ModuleManager {
     	//Render
     	modules.add(new Fullbright());
     	modules.add(new HoleESP());
+    	//Beta
+    	modules.add(new AutoEZ());
     }
 
     public ArrayList<Module> getModules() {
