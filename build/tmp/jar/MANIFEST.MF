@@ -2,5 +2,5 @@ Manifest-Version: 1.0
 FMLCorePluginContainsFMLMod: true
 TweakClass: org.spongepowered.asm.launch.MixinTweaker
 ForceLoadAsMod: true
-FMLCorePlugin: me.bon.badlionplus.mixin.MixinLoader
+FMLCorePlugin: me.eonexe.revolution.mixin.MixinLoader
 

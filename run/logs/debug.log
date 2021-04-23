@@ -148,10 +148,10 @@
 [18:22:40] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
 [18:22:40] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
 [18:22:40] [main/DEBUG] [FML]: All fundamental core mods are successfully located
-[18:22:40] [main/INFO] [FML]: Found a command line coremod : me.bon.badlionplus.mixin.MixinLoader
+[18:22:40] [main/INFO] [FML]: Found a command line coremod : me.eonexe.revolution.mixin.MixinLoader
 [18:22:40] [main/DEBUG] [FML]: Instantiating coremod class MixinLoader
-[18:22:40] [main/DEBUG] [FML]: The coremod me.bon.badlionplus.mixin.MixinLoader requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
-[18:22:40] [main/INFO] [FML]: Ignoring missing certificate for coremod MixinLoader (me.bon.badlionplus.mixin.MixinLoader), as this is probably a dev workspace
+[18:22:40] [main/DEBUG] [FML]: The coremod me.eonexe.revolution.mixin.MixinLoader requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[18:22:40] [main/INFO] [FML]: Ignoring missing certificate for coremod MixinLoader (me.eonexe.revolution.mixin.MixinLoader), as this is probably a dev workspace
 [18:22:41] [main/DEBUG] [mixin]: MixinService [LaunchWrapper] was successfully booted in net.minecraft.launchwrapper.LaunchClassLoader@564fabc8
 [18:22:41] [main/DEBUG] [mixin]: MixinService [LaunchWrapper] was successfully booted in sun.misc.Launcher$AppClassLoader@53d8d10a
 [18:22:41] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/sammu/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.11-SNAPSHOT/7a670207bdb97db418118ad1e9bb42424ff3776d/mixin-0.7.11-SNAPSHOT.jar Service=LaunchWrapper Env=CLIENT
@@ -159,7 +159,7 @@
 [18:22:41] [main/DEBUG] [mixin]: Initialising Mixin Platform Manager
 [18:22:41] [main/DEBUG] [mixin]: Mixin platform: primary container is file:/C:/Users/sammu/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.11-SNAPSHOT/7a670207bdb97db418118ad1e9bb42424ff3776d/mixin-0.7.11-SNAPSHOT.jar
 [18:22:41] [main/DEBUG] [mixin]: Adding mixin platform agents for container file:/C:/Users/sammu/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.11-SNAPSHOT/7a670207bdb97db418118ad1e9bb42424ff3776d/mixin-0.7.11-SNAPSHOT.jar
-[18:22:41] [main/DEBUG] [mixin]: FML platform agent will ignore coremod me.bon.badlionplus.mixin.MixinLoader specified on the command line
+[18:22:41] [main/DEBUG] [mixin]: FML platform agent will ignore coremod me.eonexe.revolution.mixin.MixinLoader specified on the command line
 [18:22:41] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFML for file:/C:/Users/sammu/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.11-SNAPSHOT/7a670207bdb97db418118ad1e9bb42424ff3776d/mixin-0.7.11-SNAPSHOT.jar
 [18:22:41] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for file:/C:/Users/sammu/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.11-SNAPSHOT/7a670207bdb97db418118ad1e9bb42424ff3776d/mixin-0.7.11-SNAPSHOT.jar
 [18:22:41] [main/DEBUG] [mixin]: Scanning file:/C:/Program%20Files/Java/jre1.8.0_281/lib/resources.jar for mixin tweaker
@@ -258,7 +258,7 @@
 [18:22:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
 [18:22:41] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
 [18:22:41] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[18:22:41] [main/INFO] [GradleStart]: Injecting location in coremod me.bon.badlionplus.mixin.MixinLoader
+[18:22:41] [main/INFO] [GradleStart]: Injecting location in coremod me.eonexe.revolution.mixin.MixinLoader
 [18:22:41] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
 [18:22:41] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
 [18:22:41] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
@@ -285,9 +285,9 @@
 [18:22:42] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
 [18:22:42] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
 [18:22:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:22:42] [main/DEBUG] [FML]: Injecting coremod MixinLoader \{me.bon.badlionplus.mixin.MixinLoader\} class transformers
+[18:22:42] [main/DEBUG] [FML]: Injecting coremod MixinLoader \{me.eonexe.revolution.mixin.MixinLoader\} class transformers
 [18:22:42] [main/DEBUG] [FML]: Injection complete
-[18:22:42] [main/DEBUG] [FML]: Running coremod plugin for MixinLoader \{me.bon.badlionplus.mixin.MixinLoader\}
+[18:22:42] [main/DEBUG] [FML]: Running coremod plugin for MixinLoader \{me.eonexe.revolution.mixin.MixinLoader\}
 [18:22:42] [main/DEBUG] [FML]: Running coremod plugin MixinLoader
 [18:22:42] [main/DEBUG] [FML]: Coremod plugin class MixinLoader run successfully
 [18:22:42] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
@@ -588,7 +588,7 @@ MixinLoader (unknown)
 [18:22:47] [Client thread/TRACE] [FML]: Recursing into package me/bon
 [18:22:47] [Client thread/TRACE] [FML]: Recursing into package me/bon/badlionplus
 [18:22:47] [Client thread/TRACE] [FML]: Recursing into package me/bon/badlionplus/backdoor
-[18:22:47] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (me.bon.badlionplus.BadlionMod) - loading
+[18:22:47] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (me.eonexe.revolution.BadlionMod) - loading
 [18:22:47] [Client thread/TRACE] [FML]: Parsed dependency info for revolution: Requirements: [] After:[] Before:[]
 [18:22:47] [Client thread/TRACE] [FML]: Recursing into package me/bon/badlionplus/clickgui
 [18:22:47] [Client thread/TRACE] [FML]: Recursing into package me/bon/badlionplus/clickgui/component

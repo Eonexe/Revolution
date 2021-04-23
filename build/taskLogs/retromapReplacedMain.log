@@ -41,15 +41,15 @@ FOUND CONSTR method me/bon/badlionplus/BadlionMod/BadlionMod ()V me/bon/badlionp
 Import: java.awt.Font
 Import: org.lwjgl.input.Keyboard
 Import: org.lwjgl.opengl.Display
-Import: me.bon.badlionplus.command.CommandManager
-Import: me.bon.badlionplus.friends.Friends
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.module.ModuleManager
-Import: me.bon.badlionplus.module.Combat.Criticals
-Import: me.bon.badlionplus.setting.SettingsManager
-Import: me.bon.badlionplus.util.ConfigManager
-Import: me.bon.badlionplus.util.Messages
-Import: me.bon.badlionplus.util.Font.CFontRenderer
+Import: me.eonexe.revolution.command.CommandManager
+Import: me.eonexe.revolution.friends.Friends
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.module.ModuleManager
+Import: me.eonexe.revolution.module.Combat.Criticals
+Import: me.eonexe.revolution.setting.SettingsManager
+Import: me.eonexe.revolution.util.ConfigManager
+Import: me.eonexe.revolution.util.Messages
+Import: me.eonexe.revolution.util.Font.CFontRenderer
 Import: me.zero.alpine.EventBus
 Import: me.zero.alpine.EventManager
 Import: net.minecraftforge.common.MinecraftForge
@@ -133,11 +133,11 @@ Import: java.io.FileInputStream
 Import: java.io.IOException
 Import: java.io.InputStreamReader
 Import: java.util.ArrayList
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.clickgui.component.Component
-Import: me.bon.badlionplus.clickgui.component.Frame
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.util.Messages
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.clickgui.component.Component
+Import: me.eonexe.revolution.clickgui.component.Frame
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.util.Messages
 Import: net.minecraft.client.gui.GuiScreen
 Import: scala.collection.generic.BitOperations.Int
 End  Processing: me/bon/badlionplus/clickgui/ClickGui.java
@@ -149,16 +149,16 @@ Start Processing: me/bon/badlionplus/clickgui/component/Frame.java
 FOUND CONSTR method me/bon/badlionplus/clickgui/component/Frame/Frame (Lme/bon/badlionplus/module/Category;)V me/bon/badlionplus/clickgui/component/Frame
 Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[1727,1735]::drawRect->func_73734_a
 Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[1837,1845]::drawRect->func_73734_a
-Import: static me.bon.badlionplus.BadlionMod.moduleManager
+Import: static me.eonexe.revolution.BadlionMod.moduleManager
 Import: java.util.ArrayList
 Import: org.lwjgl.opengl.GL11
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.clickgui.ClickGui
-Import: me.bon.badlionplus.clickgui.component.components.Button
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.util.ConfigManager
-Import: me.bon.badlionplus.util.Font.FontUtils
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.clickgui.ClickGui
+Import: me.eonexe.revolution.clickgui.component.components.Button
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.util.ConfigManager
+Import: me.eonexe.revolution.util.Font.FontUtils
 Import: net.minecraft.client.gui.FontRenderer
 Import: net.minecraft.client.gui.Gui
 End  Processing: me/bon/badlionplus/clickgui/component/Frame.java
@@ -172,19 +172,19 @@ Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[3038,3046]::drawRec
 Import: java.awt.Color
 Import: java.util.ArrayList
 Import: org.lwjgl.opengl.GL11
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.clickgui.ClickGui
-Import: me.bon.badlionplus.clickgui.component.Component
-Import: me.bon.badlionplus.clickgui.component.Frame
-Import: me.bon.badlionplus.clickgui.component.components.sub.Checkbox
-Import: me.bon.badlionplus.clickgui.component.components.sub.Keybind
-Import: me.bon.badlionplus.clickgui.component.components.sub.ModeButton
-Import: me.bon.badlionplus.clickgui.component.components.sub.Slider
-Import: me.bon.badlionplus.module.Hud.ClickGUI
-Import: static me.bon.badlionplus.BadlionMod.settingsManager
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.setting.Setting
-Import: me.bon.badlionplus.util.ColorUtils
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.clickgui.ClickGui
+Import: me.eonexe.revolution.clickgui.component.Component
+Import: me.eonexe.revolution.clickgui.component.Frame
+Import: me.eonexe.revolution.clickgui.component.components.sub.Checkbox
+Import: me.eonexe.revolution.clickgui.component.components.sub.Keybind
+Import: me.eonexe.revolution.clickgui.component.components.sub.ModeButton
+Import: me.eonexe.revolution.clickgui.component.components.sub.Slider
+Import: me.eonexe.revolution.module.Hud.ClickGUI
+Import: static me.eonexe.revolution.BadlionMod.settingsManager
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.setting.Setting
+Import: me.eonexe.revolution.util.ColorUtils
 Import: net.minecraft.client.Minecraft
 Import: net.minecraft.client.gui.Gui
 End  Processing: me/bon/badlionplus/clickgui/component/components/Button.java
@@ -197,11 +197,11 @@ Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[1769,1777]::drawRec
 Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[1969,1977]::drawRect->func_73734_a
 Import: java.awt.Color
 Import: org.lwjgl.opengl.GL11
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.clickgui.component.Component
-Import: me.bon.badlionplus.clickgui.component.components.Button
-Import: me.bon.badlionplus.setting.Setting
-Import: me.bon.badlionplus.util.Messages
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.clickgui.component.Component
+Import: me.eonexe.revolution.clickgui.component.components.Button
+Import: me.eonexe.revolution.setting.Setting
+Import: me.eonexe.revolution.util.Messages
 Import: net.minecraft.client.gui.Gui
 End  Processing: me/bon/badlionplus/clickgui/component/components/sub/Checkbox.java
 
@@ -212,9 +212,9 @@ Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[1089,1097]::drawRec
 Import: java.awt.Color
 Import: org.lwjgl.input.Keyboard
 Import: org.lwjgl.opengl.GL11
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.clickgui.component.Component
-Import: me.bon.badlionplus.clickgui.component.components.Button
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.clickgui.component.Component
+Import: me.eonexe.revolution.clickgui.component.components.Button
 Import: net.minecraft.client.Minecraft
 Import: net.minecraft.client.gui.Gui
 End  Processing: me/bon/badlionplus/clickgui/component/components/sub/Keybind.java
@@ -224,15 +224,15 @@ FOUND CONSTR method me/bon/badlionplus/clickgui/component/components/sub/ModeBut
 Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[1110,1118]::drawRect->func_73734_a
 Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[1318,1326]::drawRect->func_73734_a
 Import: org.lwjgl.opengl.GL11
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.clickgui.component.Component
-Import: me.bon.badlionplus.clickgui.component.components.Button
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.setting.Setting
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.clickgui.component.Component
+Import: me.eonexe.revolution.clickgui.component.components.Button
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.setting.Setting
 Import: net.minecraft.client.Minecraft
 Import: net.minecraft.client.gui.Gui
 Import: java.awt.Color
-Import: me.bon.badlionplus.util.ColorUtils
+Import: me.eonexe.revolution.util.ColorUtils
 End  Processing: me/bon/badlionplus/clickgui/component/components/sub/ModeButton.java
 
 Start Processing: me/bon/badlionplus/clickgui/component/components/sub/Slider.java
@@ -244,10 +244,10 @@ Import: java.awt.Color
 Import: java.math.BigDecimal
 Import: java.math.RoundingMode
 Import: org.lwjgl.opengl.GL11
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.clickgui.component.Component
-Import: me.bon.badlionplus.clickgui.component.components.Button
-Import: me.bon.badlionplus.setting.Setting
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.clickgui.component.Component
+Import: me.eonexe.revolution.clickgui.component.components.Button
+Import: me.eonexe.revolution.setting.Setting
 Import: net.minecraft.client.Minecraft
 Import: net.minecraft.client.gui.Gui
 End  Processing: me/bon/badlionplus/clickgui/component/components/sub/Slider.java
@@ -258,11 +258,11 @@ End  Processing: me/bon/badlionplus/command/Command.java
 
 Start Processing: me/bon/badlionplus/command/CommandManager.java
 Import: java.util.HashSet
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.command.Commands.Bind
-Import: me.bon.badlionplus.command.Commands.FriendCommand
-Import: me.bon.badlionplus.command.Commands.Help
-Import: me.bon.badlionplus.command.Commands.Toggle
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.command.Commands.Bind
+Import: me.eonexe.revolution.command.Commands.FriendCommand
+Import: me.eonexe.revolution.command.Commands.Help
+Import: me.eonexe.revolution.command.Commands.Toggle
 Import: net.minecraftforge.client.event.ClientChatEvent
 Import: net.minecraftforge.fml.common.eventhandler.EventPriority
 Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
@@ -272,35 +272,35 @@ Start Processing: me/bon/badlionplus/command/Commands/Bind.java
 FOUND CONSTR method me/bon/badlionplus/command/Commands/Bind/Bind ()V me/bon/badlionplus/command/Commands/Bind
 Import: org.lwjgl.input.Keyboard
 Import: com.mojang.realmsclient.gui.ChatFormatting
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.command.Command
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.util.Messages
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.command.Command
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.util.Messages
 End  Processing: me/bon/badlionplus/command/Commands/Bind.java
 
 Start Processing: me/bon/badlionplus/command/Commands/FriendCommand.java
 FOUND CONSTR method me/bon/badlionplus/command/Commands/FriendCommand/FriendCommand ()V me/bon/badlionplus/command/Commands/FriendCommand
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.command.Command
-Import: me.bon.badlionplus.friends.Friends
-Import: me.bon.badlionplus.util.Messages
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.command.Command
+Import: me.eonexe.revolution.friends.Friends
+Import: me.eonexe.revolution.util.Messages
 Import: net.minecraft.util.text.TextFormatting
 End  Processing: me/bon/badlionplus/command/Commands/FriendCommand.java
 
 Start Processing: me/bon/badlionplus/command/Commands/Help.java
 FOUND CONSTR method me/bon/badlionplus/command/Commands/Help/Help ()V me/bon/badlionplus/command/Commands/Help
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.command.Command
-Import: me.bon.badlionplus.util.Messages
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.command.Command
+Import: me.eonexe.revolution.util.Messages
 Import: net.minecraft.util.text.TextFormatting
 End  Processing: me/bon/badlionplus/command/Commands/Help.java
 
 Start Processing: me/bon/badlionplus/command/Commands/Toggle.java
 FOUND CONSTR method me/bon/badlionplus/command/Commands/Toggle/Toggle ()V me/bon/badlionplus/command/Commands/Toggle
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.command.Command
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.util.Messages
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.command.Command
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.util.Messages
 Import: net.minecraft.util.text.TextFormatting
 End  Processing: me/bon/badlionplus/command/Commands/Toggle.java
 
@@ -314,26 +314,26 @@ End  Processing: me/bon/badlionplus/event/BadlionEvent.java
 
 Start Processing: me/bon/badlionplus/event/Events/EntityUseTotemEvent.java
 FOUND CONSTR method me/bon/badlionplus/event/Events/EntityUseTotemEvent/EntityUseTotemEvent (Lnet/minecraft/entity/Entity;)V me/bon/badlionplus/event/Events/EntityUseTotemEvent
-Import: me.bon.badlionplus.event.BadlionEvent
+Import: me.eonexe.revolution.event.BadlionEvent
 Import: net.minecraft.entity.Entity
 End  Processing: me/bon/badlionplus/event/Events/EntityUseTotemEvent.java
 
 Start Processing: me/bon/badlionplus/event/Events/EventEntityRemoved.java
 FOUND CONSTR method me/bon/badlionplus/event/Events/EventEntityRemoved/EventEntityRemoved (Lnet/minecraft/entity/Entity;)V me/bon/badlionplus/event/Events/EventEntityRemoved
-Import: me.bon.badlionplus.event.BadlionEvent
+Import: me.eonexe.revolution.event.BadlionEvent
 Import: net.minecraft.entity.Entity
 End  Processing: me/bon/badlionplus/event/Events/EventEntityRemoved.java
 
 Start Processing: me/bon/badlionplus/event/Events/EventPlayerClickBlock.java
 FOUND CONSTR method me/bon/badlionplus/event/Events/EventPlayerClickBlock/EventPlayerClickBlock (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)V me/bon/badlionplus/event/Events/EventPlayerClickBlock
-Import: me.bon.badlionplus.event.BadlionEvent
+Import: me.eonexe.revolution.event.BadlionEvent
 Import: net.minecraft.util.EnumFacing
 Import: net.minecraft.util.math.BlockPos
 End  Processing: me/bon/badlionplus/event/Events/EventPlayerClickBlock.java
 
 Start Processing: me/bon/badlionplus/event/Events/EventPlayerDamageBlock.java
 FOUND CONSTR method me/bon/badlionplus/event/Events/EventPlayerDamageBlock/EventPlayerDamageBlock (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)V me/bon/badlionplus/event/Events/EventPlayerDamageBlock
-Import: me.bon.badlionplus.event.BadlionEvent
+Import: me.eonexe.revolution.event.BadlionEvent
 Import: net.minecraft.util.EnumFacing
 Import: net.minecraft.util.math.BlockPos
 End  Processing: me/bon/badlionplus/event/Events/EventPlayerDamageBlock.java
@@ -344,7 +344,7 @@ FOUND CONSTR method me/bon/badlionplus/event/Events/PacketEvent/Receive/Receive 
 FOUND CONSTR method me/bon/badlionplus/event/Events/PacketEvent/Send/Send (Lnet/minecraft/network/Packet;)V me/bon/badlionplus/event/Events/PacketEvent/Send
 FOUND CONSTR method me/bon/badlionplus/event/Events/PacketEvent/PostReceive/PostReceive (Lnet/minecraft/network/Packet;)V me/bon/badlionplus/event/Events/PacketEvent/PostReceive
 FOUND CONSTR method me/bon/badlionplus/event/Events/PacketEvent/PostSend/PostSend (Lnet/minecraft/network/Packet;)V me/bon/badlionplus/event/Events/PacketEvent/PostSend
-Import: me.bon.badlionplus.event.BadlionEvent
+Import: me.eonexe.revolution.event.BadlionEvent
 Import: net.minecraft.network.Packet
 End  Processing: me/bon/badlionplus/event/Events/PacketEvent.java
 
@@ -355,7 +355,7 @@ Rename method net/minecraft/client/renderer/BufferBuilder/setTranslation (DDD)V[
 Rename field net/minecraft/util/math/Vec3d/x[853,854]::x->field_72450_a
 Rename field net/minecraft/util/math/Vec3d/y[881,882]::y->field_72448_b
 Rename field net/minecraft/util/math/Vec3d/z[909,910]::z->field_72449_c
-Import: me.bon.badlionplus.event.BadlionEvent
+Import: me.eonexe.revolution.event.BadlionEvent
 Import: net.minecraft.client.renderer.BufferBuilder
 Import: net.minecraft.client.renderer.Tessellator
 Import: net.minecraft.util.math.Vec3d
@@ -363,13 +363,13 @@ End  Processing: me/bon/badlionplus/event/Events/RenderEvent.java
 
 Start Processing: me/bon/badlionplus/event/Events/TotemPopEvent.java
 FOUND CONSTR method me/bon/badlionplus/event/Events/TotemPopEvent/TotemPopEvent (Lnet/minecraft/entity/Entity;)V me/bon/badlionplus/event/Events/TotemPopEvent
-Import: me.bon.badlionplus.event.BadlionEvent
+Import: me.eonexe.revolution.event.BadlionEvent
 Import: net.minecraft.entity.Entity
 End  Processing: me/bon/badlionplus/event/Events/TotemPopEvent.java
 
 Start Processing: me/bon/badlionplus/event/ForgeEventProcessor.java
 FOUND CONSTR method me/bon/badlionplus/event/ForgeEventProcessor/ForgeEventProcessor ()V me/bon/badlionplus/event/ForgeEventProcessor
-Import: me.bon.badlionplus.BadlionMod
+Import: me.eonexe.revolution.BadlionMod
 Import: net.minecraftforge.client.event.RenderWorldLastEvent
 Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
 End  Processing: me/bon/badlionplus/event/ForgeEventProcessor.java
@@ -406,7 +406,7 @@ Import: org.spongepowered.asm.mixin.Shadow
 Import: org.spongepowered.asm.mixin.injection.At
 Import: org.spongepowered.asm.mixin.injection.Inject
 Import: org.spongepowered.asm.mixin.injection.callback.CallbackInfo
-Import: me.bon.badlionplus.BadlionMod
+Import: me.eonexe.revolution.BadlionMod
 Import: net.minecraft.network.EnumConnectionState
 Import: net.minecraft.network.PacketBuffer
 Import: net.minecraft.network.handshake.client.C00Handshake
@@ -417,9 +417,9 @@ Import: org.spongepowered.asm.mixin.Mixin
 Import: org.spongepowered.asm.mixin.injection.At
 Import: org.spongepowered.asm.mixin.injection.Inject
 Import: org.spongepowered.asm.mixin.injection.callback.CallbackInfo
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.util.ColorUtils
-Import: me.bon.badlionplus.util.Font.FontUtils
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.util.ColorUtils
+Import: me.eonexe.revolution.util.Font.FontUtils
 Import: net.minecraft.client.gui.GuiMainMenu
 Import: net.minecraft.client.gui.GuiScreen
 End  Processing: me/bon/badlionplus/mixin/Mixins/MixinGuiMainMenu.java
@@ -437,7 +437,7 @@ Import: org.lwjgl.input.Keyboard
 Import: org.spongepowered.asm.mixin.Mixin
 Import: org.spongepowered.asm.mixin.injection.At
 Import: org.spongepowered.asm.mixin.injection.Redirect
-Import: me.bon.badlionplus.BadlionMod
+Import: me.eonexe.revolution.BadlionMod
 Import: net.minecraft.client.Minecraft
 Import: net.minecraft.client.gui.GuiChat
 Import: net.minecraft.client.settings.KeyBinding
@@ -459,8 +459,8 @@ Import: org.spongepowered.asm.mixin.injection.At
 Import: org.spongepowered.asm.mixin.injection.Inject
 Import: org.spongepowered.asm.mixin.injection.callback.CallbackInfo
 Import: io.netty.channel.ChannelHandlerContext
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.event.Events.PacketEvent
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.event.Events.PacketEvent
 Import: net.minecraft.network.NetworkManager
 Import: net.minecraft.network.Packet
 End  Processing: me/bon/badlionplus/mixin/Mixins/MixinNetworkManager.java
@@ -470,9 +470,9 @@ Import: org.spongepowered.asm.mixin.Mixin
 Import: org.spongepowered.asm.mixin.injection.At
 Import: org.spongepowered.asm.mixin.injection.Inject
 Import: org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.event.Events.EventPlayerClickBlock
-Import: me.bon.badlionplus.event.Events.EventPlayerDamageBlock
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.event.Events.EventPlayerClickBlock
+Import: me.eonexe.revolution.event.Events.EventPlayerDamageBlock
 Import: net.minecraft.client.multiplayer.PlayerControllerMP
 Import: net.minecraft.util.EnumFacing
 Import: net.minecraft.util.math.BlockPos
@@ -483,8 +483,8 @@ Import: org.spongepowered.asm.mixin.Mixin
 Import: org.spongepowered.asm.mixin.injection.At
 Import: org.spongepowered.asm.mixin.injection.Inject
 Import: org.spongepowered.asm.mixin.injection.callback.CallbackInfo
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.event.Events.EventEntityRemoved
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.event.Events.EventEntityRemoved
 Import: net.minecraft.entity.Entity
 Import: net.minecraft.world.World
 End  Processing: me/bon/badlionplus/mixin/Mixins/MixinWorld.java
@@ -513,11 +513,11 @@ Rename field net/minecraft/client/entity/EntityPlayerSP/connection[3696,3706]::c
 Rename method net/minecraft/client/network/NetHandlerPlayClient/sendPacket (Lnet/minecraft/network/Packet;)V[3710,3720]::sendPacket->func_147297_a
 Rename field net/minecraft/client/Minecraft/player[3855,3861]::player->field_71439_g
 Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[3869,3876]::getName->func_70005_c_
-Import: me.bon.badlionplus.event.Events.PacketEvent
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.setting.Setting
-Import: me.bon.badlionplus.util.EZUtil
+Import: me.eonexe.revolution.event.Events.PacketEvent
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.setting.Setting
+Import: me.eonexe.revolution.util.EZUtil
 Import: me.zero.alpine.listener.EventHandler
 Import: me.zero.alpine.listener.Listener
 Import: net.minecraft.client.Minecraft
@@ -541,10 +541,10 @@ Rename field net/minecraft/client/Minecraft/player[1787,1793]::player->field_714
 Rename field net/minecraft/client/Minecraft/player[2224,2230]::player->field_71439_g
 Import: com.mojang.realmsclient.gui.ChatFormatting
 Adding 8 imports
-        me.bon.badlionplus.module.Category
-        me.bon.badlionplus.module.Module
-        me.bon.badlionplus.setting.Setting
-        me.bon.badlionplus.util.Messages
+        me.eonexe.revolution.module.Category
+        me.eonexe.revolution.module.Module
+        me.eonexe.revolution.setting.Setting
+        me.eonexe.revolution.util.Messages
         net.minecraft.entity.player.EntityPlayer
         net.minecraft.util.math.BlockPos
         net.minecraft.util.text.TextFormatting
@@ -680,22 +680,22 @@ Import: java.util.ConcurrentModificationException
 Import: java.util.List
 Import: java.util.Objects
 Import: java.util.concurrent.ConcurrentHashMap
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.event.Events.EventEntityRemoved
-Import: me.bon.badlionplus.event.Events.PacketEvent
-Import: me.bon.badlionplus.event.Events.RenderEvent
-Import: me.bon.badlionplus.friends.Friends
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.setting.Setting
-Import: me.bon.badlionplus.util.BadlionPair
-Import: me.bon.badlionplus.util.BadlionTessellator
-Import: me.bon.badlionplus.util.BlockUtils
-Import: me.bon.badlionplus.util.ColorUtils
-Import: me.bon.badlionplus.util.CrystalUtil
-Import: me.bon.badlionplus.util.EntityUtil
-Import: me.bon.badlionplus.util.Messages
-Import: me.bon.badlionplus.util.Timer
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.event.Events.EventEntityRemoved
+Import: me.eonexe.revolution.event.Events.PacketEvent
+Import: me.eonexe.revolution.event.Events.RenderEvent
+Import: me.eonexe.revolution.friends.Friends
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.setting.Setting
+Import: me.eonexe.revolution.util.BadlionPair
+Import: me.eonexe.revolution.util.BadlionTessellator
+Import: me.eonexe.revolution.util.BlockUtils
+Import: me.eonexe.revolution.util.ColorUtils
+Import: me.eonexe.revolution.util.CrystalUtil
+Import: me.eonexe.revolution.util.EntityUtil
+Import: me.eonexe.revolution.util.Messages
+Import: me.eonexe.revolution.util.Timer
 Import: me.zero.alpine.listener.EventHandler
 Import: me.zero.alpine.listener.Listener
 Import: net.minecraft.entity.Entity
@@ -822,14 +822,14 @@ Rename method net/minecraft/util/math/Vec3i/getY ()I[10184,10188]::getY->func_17
 Rename method net/minecraft/util/math/Vec3i/getZ ()I[10226,10230]::getZ->func_177952_p
 Import: java.util.List
 Import: com.mojang.realmsclient.gui.ChatFormatting
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.friends.Friends
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.setting.Setting
-Import: me.bon.badlionplus.util.BadlionTessellator
-Import: me.bon.badlionplus.util.ColorUtils
-Import: me.bon.badlionplus.util.Messages
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.friends.Friends
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.setting.Setting
+Import: me.eonexe.revolution.util.BadlionTessellator
+Import: me.eonexe.revolution.util.ColorUtils
+Import: me.eonexe.revolution.util.Messages
 Import: net.minecraft.block.Block
 Import: net.minecraft.block.BlockObsidian
 Import: net.minecraft.block.BlockRail
@@ -892,8 +892,8 @@ Rename field net/minecraft/entity/player/EntityPlayer/inventory[1408,1417]::inve
 Rename method net/minecraft/inventory/IInventory/getStackInSlot (I)Lnet/minecraft/item/ItemStack;[1423,1437]::getStackInSlot->func_70301_a
 Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1439,1446]::getItem->func_77973_b
 Rename field net/minecraft/init/Items/TOTEM_OF_UNDYING[1485,1501]::TOTEM_OF_UNDYING->field_190929_cY
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
 Import: net.minecraft.client.gui.inventory.GuiContainer
 Import: net.minecraft.init.Items
 Import: net.minecraft.inventory.ClickType
@@ -972,11 +972,11 @@ Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[7
 Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[7647,7654]::getItem->func_77973_b
 Rename method net/minecraft/item/ItemBlock/getBlock ()Lnet/minecraft/block/Block;[7663,7671]::getBlock->func_179223_d
 Import: java.util.List
-Import: me.bon.badlionplus.friends.Friends
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.setting.Setting
-Import: me.bon.badlionplus.util.Messages
+Import: me.eonexe.revolution.friends.Friends
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.setting.Setting
+Import: me.eonexe.revolution.util.Messages
 Import: net.minecraft.block.Block
 Import: net.minecraft.block.BlockAir
 Import: net.minecraft.block.BlockLiquid
@@ -1049,11 +1049,11 @@ Rename method net/minecraft/entity/Entity/getDistance (Lnet/minecraft/entity/Ent
 Rename field net/minecraft/client/Minecraft/player[4879,4885]::player->field_71439_g
 Rename method net/minecraft/entity/Entity/getDistance (Lnet/minecraft/entity/Entity;)F[4893,4904]::getDistance->func_70032_d
 Import: java.util.List
-Import: me.bon.badlionplus.friends.Friends
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.setting.Setting
-Import: me.bon.badlionplus.util.Messages
+Import: me.eonexe.revolution.friends.Friends
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.setting.Setting
+Import: me.eonexe.revolution.util.Messages
 Import: net.minecraft.block.Block
 Import: net.minecraft.block.BlockAir
 Import: net.minecraft.block.BlockLiquid
@@ -1223,13 +1223,13 @@ Rename method net/minecraft/util/math/Vec3i/getZ ()I[15651,15655]::getZ->func_17
 Import: java.util.Comparator
 Import: java.util.List
 Import: com.mojang.realmsclient.gui.ChatFormatting
-Import: me.bon.badlionplus.friends.Friends
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.setting.Setting
-Import: me.bon.badlionplus.util.BadlionTessellator
-Import: me.bon.badlionplus.util.ColorUtils
-Import: me.bon.badlionplus.util.Messages
+Import: me.eonexe.revolution.friends.Friends
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.setting.Setting
+Import: me.eonexe.revolution.util.BadlionTessellator
+Import: me.eonexe.revolution.util.ColorUtils
+Import: me.eonexe.revolution.util.Messages
 Import: net.minecraft.block.Block
 Import: net.minecraft.block.BlockAir
 Import: net.minecraft.block.BlockBed
@@ -1282,8 +1282,8 @@ Rename field net/minecraft/client/Minecraft/player[959,965]::player->field_71439
 Rename method net/minecraft/entity/EntityLivingBase/getActiveHand ()Lnet/minecraft/util/EnumHand;[973,986]::getActiveHand->func_184600_cs
 Rename field net/minecraft/client/Minecraft/player[999,1005]::player->field_71439_g
 Rename method net/minecraft/entity/EntityLivingBase/stopActiveHand ()V[1013,1027]::stopActiveHand->func_184597_cx
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
 Import: net.minecraft.item.ItemBow
 Import: net.minecraft.network.play.client.CPacketPlayerDigging
 Import: net.minecraft.network.play.client.CPacketPlayerTryUseItem
@@ -1317,10 +1317,10 @@ Rename field net/minecraft/client/Minecraft/player[1317,1323]::player->field_714
 Rename field net/minecraft/entity/Entity/posY[1331,1335]::posY->field_70163_u
 Rename field net/minecraft/client/Minecraft/player[1349,1355]::player->field_71439_g
 Rename field net/minecraft/entity/Entity/posZ[1363,1367]::posZ->field_70161_v
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.event.Events.PacketEvent
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.event.Events.PacketEvent
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
 Import: me.zero.alpine.listener.EventHandler
 Import: me.zero.alpine.listener.Listener
 Import: net.minecraft.network.play.client.CPacketPlayer
@@ -1371,9 +1371,9 @@ Rename field net/minecraft/client/Minecraft/player[2964,2970]::player->field_714
 Rename field net/minecraft/entity/player/EntityPlayer/inventory[2978,2987]::inventory->field_71071_by
 Rename method net/minecraft/inventory/IInventory/getStackInSlot (I)Lnet/minecraft/item/ItemStack;[2993,3007]::getStackInSlot->func_70301_a
 Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[3009,3016]::getItem->func_77973_b
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.setting.Setting
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.setting.Setting
 Import: net.minecraft.init.Items
 Import: net.minecraft.inventory.ClickType
 Import: net.minecraft.item.Item
@@ -1431,14 +1431,14 @@ Rename field net/minecraft/client/Minecraft/player[6653,6659]::player->field_714
 Rename method net/minecraft/entity/Entity/getDistance (Lnet/minecraft/entity/Entity;)F[6667,6678]::getDistance->func_70032_d
 Import: java.util.List
 Import: com.mojang.realmsclient.gui.ChatFormatting
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.command.Command
-Import: me.bon.badlionplus.friends.Friends
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.module.ModuleManager
-Import: me.bon.badlionplus.setting.Setting
-Import: me.bon.badlionplus.util.Messages
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.command.Command
+Import: me.eonexe.revolution.friends.Friends
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.module.ModuleManager
+Import: me.eonexe.revolution.setting.Setting
+Import: me.eonexe.revolution.util.Messages
 Import: net.minecraft.block.Block
 Import: net.minecraft.block.state.IBlockState
 Import: net.minecraft.entity.Entity
@@ -1525,9 +1525,9 @@ Rename field net/minecraft/client/Minecraft/player[5048,5054]::player->field_714
 Rename field net/minecraft/client/Minecraft/world[5066,5071]::world->field_71441_e
 Rename field net/minecraft/client/Minecraft/player[5142,5148]::player->field_71439_g
 Rename method net/minecraft/entity/EntityLivingBase/swingArm (Lnet/minecraft/util/EnumHand;)V[5156,5164]::swingArm->func_184609_a
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.setting.Setting
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.setting.Setting
 Import: net.minecraft.block.Block
 Import: net.minecraft.block.BlockAir
 Import: net.minecraft.block.BlockAnvil
@@ -1555,8 +1555,8 @@ Rename field net/minecraft/client/Minecraft/currentScreen[1148,1161]::currentScr
 Rename field net/minecraft/client/Minecraft/player[1317,1323]::player->field_71439_g
 Rename field net/minecraft/client/Minecraft/world[1345,1350]::world->field_71441_e
 Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[1390,1406]::displayGuiScreen->func_147108_a
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
 Import: net.minecraft.client.gui.GuiScreen
 Import: net.minecraft.client.gui.inventory.GuiContainer
 Import: net.minecraft.inventory.Container
@@ -1566,8 +1566,8 @@ End  Processing: me/bon/badlionplus/module/Exploit/EChestBackPack.java
 
 Start Processing: me/bon/badlionplus/module/Exploit/NoHandshake.java
 FOUND CONSTR method me/bon/badlionplus/module/Exploit/NoHandshake/NoHandshake ()V me/bon/badlionplus/module/Exploit/NoHandshake
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
 End  Processing: me/bon/badlionplus/module/Exploit/NoHandshake.java
 
 Start Processing: me/bon/badlionplus/module/Hud/Arraylist.java
@@ -1585,12 +1585,12 @@ Rename field net/minecraft/client/Minecraft/fontRenderer[2642,2654]::fontRendere
 Rename field net/minecraft/client/gui/FontRenderer/FONT_HEIGHT[2656,2667]::FONT_HEIGHT->field_78288_b
 Rename field net/minecraft/client/Minecraft/fontRenderer[2844,2856]::fontRenderer->field_71466_p
 Rename field net/minecraft/client/gui/FontRenderer/FONT_HEIGHT[2858,2869]::FONT_HEIGHT->field_78288_b
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.setting.Setting
-Import: me.bon.badlionplus.util.ColorUtils
-Import: me.bon.badlionplus.util.Font.FontUtils
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.setting.Setting
+Import: me.eonexe.revolution.util.ColorUtils
+Import: me.eonexe.revolution.util.Font.FontUtils
 Import: net.minecraft.util.text.TextFormatting
 Import: net.minecraftforge.client.event.RenderGameOverlayEvent
 Import: net.minecraftforge.common.MinecraftForge
@@ -1603,16 +1603,16 @@ Rename field net/minecraft/client/Minecraft/player[389,395]::player->field_71439
 Rename field net/minecraft/client/Minecraft/world[417,422]::world->field_71441_e
 Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[457,473]::displayGuiScreen->func_147108_a
 Import: org.lwjgl.input.Keyboard
-Import: me.bon.badlionplus.clickgui.ClickGui
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
+Import: me.eonexe.revolution.clickgui.ClickGui
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
 End  Processing: me/bon/badlionplus/module/Hud/ClickGUI.java
 
 Start Processing: me/bon/badlionplus/module/Misc/ChatSuffix.java
 FOUND CONSTR method me/bon/badlionplus/module/Misc/ChatSuffix/ChatSuffix ()V me/bon/badlionplus/module/Misc/ChatSuffix
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
 Import: net.minecraftforge.client.event.ClientChatEvent
 Import: net.minecraftforge.common.MinecraftForge
 Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
@@ -1640,20 +1640,20 @@ Rename field net/minecraft/client/Minecraft/world[1545,1550]::world->field_71441
 Rename field net/minecraft/client/Minecraft/world[1580,1585]::world->field_71441_e
 Rename method net/minecraft/world/World/removeEntity (Lnet/minecraft/entity/Entity;)V[1594,1606]::removeEntity->func_72900_e
 Import: java.util.ArrayList
-Import: me.bon.badlionplus.setting.Setting
+Import: me.eonexe.revolution.setting.Setting
 Import: com.mojang.authlib.GameProfile
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
 Import: net.minecraft.client.entity.EntityOtherPlayerMP
 End  Processing: me/bon/badlionplus/module/Misc/FakePlayer.java
 
 Start Processing: me/bon/badlionplus/module/Misc/RpcModule.java
 FOUND CONSTR method me/bon/badlionplus/module/Misc/RpcModule/RpcModule ()V me/bon/badlionplus/module/Misc/RpcModule
-Import: me.bon.badlionplus.BadlionRPC
-Import: me.bon.badlionplus.command.Command
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.module.Category
+Import: me.eonexe.revolution.BadlionRPC
+Import: me.eonexe.revolution.command.Command
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.module.Category
 End  Processing: me/bon/badlionplus/module/Misc/RpcModule.java
 
 Start Processing: me/bon/badlionplus/module/Misc/TotemPopAnnouncer.java
@@ -1718,14 +1718,14 @@ Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[
 Rename field net/minecraft/client/Minecraft/player[5484,5490]::player->field_71439_g
 Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[5498,5505]::getName->func_70005_c_
 Import: java.util.HashMap
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.event.Events.PacketEvent
-Import: me.bon.badlionplus.event.Events.TotemPopEvent
-Import: me.bon.badlionplus.friends.Friends
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.setting.Setting
-Import: me.bon.badlionplus.util.Messages
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.event.Events.PacketEvent
+Import: me.eonexe.revolution.event.Events.TotemPopEvent
+Import: me.eonexe.revolution.friends.Friends
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.setting.Setting
+Import: me.eonexe.revolution.util.Messages
 Import: me.zero.alpine.listener.EventHandler
 Import: me.zero.alpine.listener.Listener
 Import: net.minecraft.entity.Entity
@@ -1740,10 +1740,10 @@ Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/clien
 FOUND CONSTR method me/bon/badlionplus/module/Module/Module (Ljava/lang/String;Lme/bon/badlionplus/module/Category;)V me/bon/badlionplus/module/Module
 New Key: class net/minecraftforge/fml/common/gameevent/TickEvent
 Import: org.lwjgl.input.Keyboard
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.event.Events.RenderEvent
-Import: me.bon.badlionplus.setting.Setting
-Import: static me.bon.badlionplus.BadlionMod.settingsManager
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.event.Events.RenderEvent
+Import: me.eonexe.revolution.setting.Setting
+Import: static me.eonexe.revolution.BadlionMod.settingsManager
 Import: net.minecraft.client.Minecraft
 Import: net.minecraftforge.client.event.RenderWorldLastEvent
 Import: net.minecraftforge.common.MinecraftForge
@@ -1806,24 +1806,24 @@ Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/clien
 Rename field net/minecraft/client/Minecraft/profiler[5730,5738]::profiler->field_71424_I
 Rename method net/minecraft/profiler/Profiler/endSection ()V[5744,5754]::endSection->func_76319_b
 Import: java.util.ArrayList
-Import: me.bon.badlionplus.module.Combat.*
-Import: me.bon.badlionplus.module.Misc.RpcModule
-Import: me.bon.badlionplus.module.Movement.*
+Import: me.eonexe.revolution.module.Combat.*
+Import: me.eonexe.revolution.module.Misc.RpcModule
+Import: me.eonexe.revolution.module.Movement.*
 Import: org.lwjgl.input.Keyboard
 Import: org.lwjgl.opengl.GL11
-Import: me.bon.badlionplus.event.Events.RenderEvent
-Import: me.bon.badlionplus.module.Exploit.EChestBackPack
-Import: me.bon.badlionplus.module.Exploit.NoHandshake
-Import: me.bon.badlionplus.module.Hud.Arraylist
-Import: me.bon.badlionplus.module.Hud.ClickGUI
-Import: me.bon.badlionplus.module.Misc.ChatSuffix
-Import: me.bon.badlionplus.module.Misc.FakePlayer
-Import: me.bon.badlionplus.module.Misc.TotemPopAnnouncer
-Import: me.bon.badlionplus.module.Player.NoFall
-Import: me.bon.badlionplus.module.Player.PacketMine
-Import: me.bon.badlionplus.module.Render.Fullbright
-Import: me.bon.badlionplus.module.Render.HoleESP
-Import: me.bon.badlionplus.util.BadlionTessellator
+Import: me.eonexe.revolution.event.Events.RenderEvent
+Import: me.eonexe.revolution.module.Exploit.EChestBackPack
+Import: me.eonexe.revolution.module.Exploit.NoHandshake
+Import: me.eonexe.revolution.module.Hud.Arraylist
+Import: me.eonexe.revolution.module.Hud.ClickGUI
+Import: me.eonexe.revolution.module.Misc.ChatSuffix
+Import: me.eonexe.revolution.module.Misc.FakePlayer
+Import: me.eonexe.revolution.module.Misc.TotemPopAnnouncer
+Import: me.eonexe.revolution.module.Player.NoFall
+Import: me.eonexe.revolution.module.Player.PacketMine
+Import: me.eonexe.revolution.module.Render.Fullbright
+Import: me.eonexe.revolution.module.Render.HoleESP
+Import: me.eonexe.revolution.util.BadlionTessellator
 Import: net.minecraft.client.Minecraft
 Import: net.minecraft.client.renderer.GlStateManager
 Import: net.minecraft.entity.Entity
@@ -1953,9 +1953,9 @@ Rename field net/minecraft/client/Minecraft/player[3892,3898]::player->field_714
 Rename field net/minecraft/entity/Entity/motionX[3906,3913]::motionX->field_70159_w
 Rename field net/minecraft/client/Minecraft/player[3940,3946]::player->field_71439_g
 Rename field net/minecraft/entity/Entity/motionZ[3954,3961]::motionZ->field_70179_y
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.setting.Setting
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.setting.Setting
 Import: net.minecraft.init.Blocks
 Import: net.minecraft.util.math.BlockPos
 End  Processing: me/bon/badlionplus/module/Movement/Anchor.java
@@ -1983,8 +1983,8 @@ Rename field net/minecraft/entity/Entity/prevRotationPitch[908,925]::prevRotatio
 Rename field net/minecraft/client/Minecraft/player[936,942]::player->field_71439_g
 Rename field net/minecraft/entity/Entity/rotationPitch[950,963]::rotationPitch->field_70125_A
 Import: org.lwjgl.input.Keyboard
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
 Import: net.minecraft.client.gui.GuiChat
 End  Processing: me/bon/badlionplus/module/Movement/GuiMove.java
 
@@ -1999,9 +1999,9 @@ Rename field net/minecraft/client/Minecraft/player[420,426]::player->field_71439
 Rename method net/minecraft/entity/Entity/isSprinting ()Z[434,445]::isSprinting->func_70051_ag
 Rename field net/minecraft/client/Minecraft/player[461,467]::player->field_71439_g
 Rename method net/minecraft/entity/Entity/setSprinting (Z)V[475,487]::setSprinting->func_70031_b
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.setting.Setting
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.setting.Setting
 End  Processing: me/bon/badlionplus/module/Movement/Sprint.java
 
 Start Processing: me/bon/badlionplus/module/Movement/Strafe.java
@@ -2081,9 +2081,9 @@ Rename field net/minecraft/client/Minecraft/player[3493,3499]::player->field_714
 Rename field net/minecraft/entity/Entity/motionX[3507,3514]::motionX->field_70159_w
 Rename field net/minecraft/client/Minecraft/player[3599,3605]::player->field_71439_g
 Rename field net/minecraft/entity/Entity/motionZ[3613,3620]::motionZ->field_70179_y
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.setting.Setting
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.setting.Setting
 Import: net.minecraft.util.math.MathHelper
 End  Processing: me/bon/badlionplus/module/Movement/Strafe.java
 
@@ -2093,11 +2093,11 @@ New Key: class me/bon/badlionplus/event/Events/PacketEvent
 Rename method net/minecraft/network/play/server/SPacketEntityVelocity/getEntityID ()I[967,978]::getEntityID->func_149412_c
 Rename field net/minecraft/client/Minecraft/player[989,995]::player->field_71439_g
 Rename method net/minecraft/entity/Entity/getEntityId ()I[1003,1014]::getEntityId->func_145782_y
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.event.Events.PacketEvent
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.util.Messages
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.event.Events.PacketEvent
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.util.Messages
 Import: me.zero.alpine.listener.EventHandler
 Import: me.zero.alpine.listener.Listener
 Import: net.minecraft.network.play.server.SPacketEntityVelocity
@@ -2106,8 +2106,8 @@ End  Processing: me/bon/badlionplus/module/Movement/Velocity.java
 
 Start Processing: me/bon/badlionplus/module/Player/NoFall.java
 FOUND CONSTR method me/bon/badlionplus/module/Player/NoFall/NoFall ()V me/bon/badlionplus/module/Player/NoFall
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
 End  Processing: me/bon/badlionplus/module/Player/NoFall.java
 
 Start Processing: me/bon/badlionplus/module/Player/PacketMine.java
@@ -2128,10 +2128,10 @@ Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/bl
 Rename method net/minecraft/block/Block/getBlockHardness (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)F[1669,1685]::getBlockHardness->func_176195_g
 Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1705,1717]::getMinecraft->func_71410_x
 Rename field net/minecraft/client/Minecraft/world[1720,1725]::world->field_71441_e
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.event.Events.EventPlayerDamageBlock
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.event.Events.EventPlayerDamageBlock
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
 Import: me.zero.alpine.listener.EventHandler
 Import: me.zero.alpine.listener.Listener
 Import: net.minecraft.block.Block
@@ -2155,8 +2155,8 @@ Rename method net/minecraft/entity/EntityLivingBase/addPotionEffect (Lnet/minecr
 Rename field net/minecraft/client/Minecraft/player[894,900]::player->field_71439_g
 Rename method net/minecraft/entity/EntityLivingBase/removeActivePotionEffect (Lnet/minecraft/potion/Potion;)Lnet/minecraft/potion/PotionEffect;[908,932]::removeActivePotionEffect->func_184596_c
 Rename method net/minecraft/potion/PotionEffect/getPotion ()Lnet/minecraft/potion/Potion;[929,938]::getPotion->func_188419_a
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
 Import: net.minecraft.potion.Potion
 Import: net.minecraft.potion.PotionEffect
 Import: java.util.Objects
@@ -2206,11 +2206,11 @@ Import: java.util.ArrayList
 Import: java.util.List
 Import: java.util.concurrent.ConcurrentHashMap
 Import: org.lwjgl.opengl.GL11
-Import: me.bon.badlionplus.event.Events.RenderEvent
-Import: me.bon.badlionplus.module.Category
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.setting.Setting
-Import: me.bon.badlionplus.util.BadlionTessellator
+Import: me.eonexe.revolution.event.Events.RenderEvent
+Import: me.eonexe.revolution.module.Category
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.setting.Setting
+Import: me.eonexe.revolution.util.BadlionTessellator
 Import: net.minecraft.block.Block
 Import: net.minecraft.client.Minecraft
 Import: net.minecraft.init.Blocks
@@ -2225,13 +2225,13 @@ FOUND CONSTR method me/bon/badlionplus/setting/Setting/Setting (Ljava/lang/Strin
 FOUND CONSTR method me/bon/badlionplus/setting/Setting/Setting (Ljava/lang/String;Lme/bon/badlionplus/module/Module;Ljava/lang/String;Ljava/lang/String;)V me/bon/badlionplus/setting/Setting
 Import: java.awt.Color
 Import: java.util.ArrayList
-Import: me.bon.badlionplus.module.Module
+Import: me.eonexe.revolution.module.Module
 End  Processing: me/bon/badlionplus/setting/Setting.java
 
 Start Processing: me/bon/badlionplus/setting/SettingsManager.java
 FOUND CONSTR method me/bon/badlionplus/setting/SettingsManager/SettingsManager ()V me/bon/badlionplus/setting/SettingsManager
 Import: java.util.ArrayList
-Import: me.bon.badlionplus.module.Module
+Import: me.eonexe.revolution.module.Module
 End  Processing: me/bon/badlionplus/setting/SettingsManager.java
 
 Start Processing: me/bon/badlionplus/util/BadlionPair.java
@@ -2615,15 +2615,15 @@ Import: java.text.SimpleDateFormat
 Import: java.util.Date
 Import: java.util.Iterator
 Import: org.lwjgl.input.Keyboard
-Import: me.bon.badlionplus.BadlionMod
-Import: me.bon.badlionplus.clickgui.ClickGui
-Import: me.bon.badlionplus.module.Module
-Import: me.bon.badlionplus.setting.Setting
-Import: me.bon.badlionplus.clickgui.component.Frame
-Import: me.bon.badlionplus.friends.Friend
-Import: me.bon.badlionplus.friends.Friends
-Import: static me.bon.badlionplus.BadlionMod.moduleManager
-Import: static me.bon.badlionplus.BadlionMod.settingsManager
+Import: me.eonexe.revolution.BadlionMod
+Import: me.eonexe.revolution.clickgui.ClickGui
+Import: me.eonexe.revolution.module.Module
+Import: me.eonexe.revolution.setting.Setting
+Import: me.eonexe.revolution.clickgui.component.Frame
+Import: me.eonexe.revolution.friends.Friend
+Import: me.eonexe.revolution.friends.Friends
+Import: static me.eonexe.revolution.BadlionMod.moduleManager
+Import: static me.eonexe.revolution.BadlionMod.settingsManager
 End  Processing: me/bon/badlionplus/util/ConfigManager.java
 
 Start Processing: me/bon/badlionplus/util/CrystalUtil.java
@@ -2756,7 +2756,7 @@ Rename field net/minecraft/client/Minecraft/player[733,739]::player->field_71439
 Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[747,754]::getName->func_70005_c_
 Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[787,794]::getName->func_70005_c_
 Rename field net/minecraft/entity/Entity/isDead[810,816]::isDead->field_70128_L
-Import: me.bon.badlionplus.friends.Friends
+Import: me.eonexe.revolution.friends.Friends
 Import: net.minecraft.client.Minecraft
 Import: net.minecraft.entity.Entity
 Import: net.minecraft.network.play.client.CPacketUseEntity
@@ -2804,7 +2804,7 @@ Import: java.util.ArrayList
 Import: java.util.List
 Import: java.awt.*
 Adding 1 imports
-        me.bon.badlionplus.util.Font.CFont.CharData
+        me.eonexe.revolution.util.Font.CFont.CharData
 End  Processing: me/bon/badlionplus/util/Font/CFontRenderer.java
 
 Start Processing: me/bon/badlionplus/util/Font/FontUtils.java
@@ -2821,7 +2821,7 @@ Rename field net/minecraft/client/Minecraft/fontRenderer[1537,1549]::fontRendere
 Rename method net/minecraft/client/gui/FontRenderer/getStringWidth (Ljava/lang/String;)I[1551,1565]::getStringWidth->func_78256_a
 Rename field net/minecraft/client/Minecraft/fontRenderer[1724,1736]::fontRenderer->field_71466_p
 Rename field net/minecraft/client/gui/FontRenderer/FONT_HEIGHT[1738,1749]::FONT_HEIGHT->field_78288_b
-Import: me.bon.badlionplus.BadlionMod
+Import: me.eonexe.revolution.BadlionMod
 Import: net.minecraft.client.Minecraft
 End  Processing: me/bon/badlionplus/util/Font/FontUtils.java
 
