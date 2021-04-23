@@ -29,7 +29,7 @@ import net.minecraftforge.fml.common.gameevent.InputEvent;
 
 //might do a more original rewrite if i can be asked
 
-@Mod(modid = BadlionMod.MODID, name = BadlionMod.NAME, version = BadlionMod.VERSION)
+@Mod(modid = revolution.MODID, name = Revolution.NAME, version = revolution.VERSION)
 public class BadlionMod
 {
     public static final String MODID = "revolution";
@@ -47,13 +47,13 @@ public class BadlionMod
     public static String prefix = ",";
     
     @Mod.Instance
-    private static BadlionMod INSTANCE;
+    private static revolution INSTANCE;
     
-    public BadlionMod() {
+    public revolution() {
     	INSTANCE = this;
     }
     
-    public static BadlionMod getInstance() {
+    public static revolution getInstance() {
     	return INSTANCE;
     }
 
