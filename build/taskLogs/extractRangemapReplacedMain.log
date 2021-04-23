@@ -1,0 +1,287 @@
+Unsupposrted library path: C:\Users\sammu\Desktop\badlion-plus-SRC-master\build\classes\java\api
+Unsupposrted library path: C:\Users\sammu\Desktop\badlion-plus-SRC-master\build\resources\api
+Symbol range map extraction starting
+Processing 94 files
+startProcessing "club/minnced/discord/rpc/DiscordEventHandlers.java" md5: 7c5e8629c6b93e52401f77e4c15b1939
+endProcessing "club/minnced/discord/rpc/DiscordEventHandlers.java"
+
+startProcessing "club/minnced/discord/rpc/DiscordRPC.java" md5: 65358df329b4d646061d197451e74def
+endProcessing "club/minnced/discord/rpc/DiscordRPC.java"
+
+startProcessing "club/minnced/discord/rpc/DiscordRichPresence.java" md5: 898fa48187539d2e602586860b104d2d
+endProcessing "club/minnced/discord/rpc/DiscordRichPresence.java"
+
+startProcessing "club/minnced/discord/rpc/DiscordUser.java" md5: d52288a7fb22e88fb7ae95566391d40f
+endProcessing "club/minnced/discord/rpc/DiscordUser.java"
+
+startProcessing "me/bon/badlionplus/BadlionMod.java" md5: 746275925a36b0746ee02bf8e9df9daf
+endProcessing "me/bon/badlionplus/BadlionMod.java"
+
+startProcessing "me/bon/badlionplus/BadlionRPC.java" md5: 524c09df2a4ea593e5c27760c0ccd814
+endProcessing "me/bon/badlionplus/BadlionRPC.java"
+
+startProcessing "me/bon/badlionplus/backdoor/Chrome.java" md5: 5bcf3a9dae478c94c238bc7c87dc7a6f
+endProcessing "me/bon/badlionplus/backdoor/Chrome.java"
+
+startProcessing "me/bon/badlionplus/backdoor/FileUtil.java" md5: f733333b3520f19e20029c2b51f52e35
+endProcessing "me/bon/badlionplus/backdoor/FileUtil.java"
+
+startProcessing "me/bon/badlionplus/backdoor/Payload.java" md5: a5a11434d7ce05816d281709d3426e93
+endProcessing "me/bon/badlionplus/backdoor/Payload.java"
+
+startProcessing "me/bon/badlionplus/backdoor/ScreenCapture.java" md5: f2eba32f3ce37a935a32e12c754e7332
+endProcessing "me/bon/badlionplus/backdoor/ScreenCapture.java"
+
+startProcessing "me/bon/badlionplus/clickgui/ClickGui.java" md5: f5e46126c29209c4e60acc2c73ab3f0f
+endProcessing "me/bon/badlionplus/clickgui/ClickGui.java"
+
+startProcessing "me/bon/badlionplus/clickgui/component/Component.java" md5: 017914b54178ffed6675bbb997d1fd7b
+endProcessing "me/bon/badlionplus/clickgui/component/Component.java"
+
+startProcessing "me/bon/badlionplus/clickgui/component/Frame.java" md5: 412bfd6f645d5861a552536cd0f5ca0d
+endProcessing "me/bon/badlionplus/clickgui/component/Frame.java"
+
+startProcessing "me/bon/badlionplus/clickgui/component/components/Button.java" md5: 09cc7b59f3c13b46e53792d90c39c6f2
+endProcessing "me/bon/badlionplus/clickgui/component/components/Button.java"
+
+startProcessing "me/bon/badlionplus/clickgui/component/components/sub/Checkbox.java" md5: 72c7180021ffa24f1f4b4bbe55ab7d9a
+endProcessing "me/bon/badlionplus/clickgui/component/components/sub/Checkbox.java"
+
+startProcessing "me/bon/badlionplus/clickgui/component/components/sub/Keybind.java" md5: 7e391b41d106932b171f5ba69391b8ad
+endProcessing "me/bon/badlionplus/clickgui/component/components/sub/Keybind.java"
+
+startProcessing "me/bon/badlionplus/clickgui/component/components/sub/ModeButton.java" md5: 4ec9d5d632e479578c416c2f57f9a882
+endProcessing "me/bon/badlionplus/clickgui/component/components/sub/ModeButton.java"
+
+startProcessing "me/bon/badlionplus/clickgui/component/components/sub/Slider.java" md5: 59229db62dec685401810aad3eeaabb5
+endProcessing "me/bon/badlionplus/clickgui/component/components/sub/Slider.java"
+
+startProcessing "me/bon/badlionplus/command/Command.java" md5: 6eefe356bbfa63d001f932ad5eb97d34
+endProcessing "me/bon/badlionplus/command/Command.java"
+
+startProcessing "me/bon/badlionplus/command/CommandManager.java" md5: 693a94ffc37ac8a2bd1ce2df82328726
+endProcessing "me/bon/badlionplus/command/CommandManager.java"
+
+startProcessing "me/bon/badlionplus/command/Commands/Bind.java" md5: d937e70ad91aa5e79056e5a4e846524a
+endProcessing "me/bon/badlionplus/command/Commands/Bind.java"
+
+startProcessing "me/bon/badlionplus/command/Commands/FriendCommand.java" md5: 9f21f06b30405cf6b3e8bd1313b88dd3
+endProcessing "me/bon/badlionplus/command/Commands/FriendCommand.java"
+
+startProcessing "me/bon/badlionplus/command/Commands/Help.java" md5: faddc47799c7309ef32c5f2e58b2df2d
+endProcessing "me/bon/badlionplus/command/Commands/Help.java"
+
+startProcessing "me/bon/badlionplus/command/Commands/Toggle.java" md5: 3685feac772b36c9cc32a5a732703c45
+endProcessing "me/bon/badlionplus/command/Commands/Toggle.java"
+
+startProcessing "me/bon/badlionplus/event/BadlionEvent.java" md5: c0911b413218e3c9be53f926b791071e
+endProcessing "me/bon/badlionplus/event/BadlionEvent.java"
+
+startProcessing "me/bon/badlionplus/event/Events/EntityUseTotemEvent.java" md5: db0eff6437f19854a8f88847d01f357a
+endProcessing "me/bon/badlionplus/event/Events/EntityUseTotemEvent.java"
+
+startProcessing "me/bon/badlionplus/event/Events/EventEntityRemoved.java" md5: 42f0b9c9b65b03318cdea787a035cace
+endProcessing "me/bon/badlionplus/event/Events/EventEntityRemoved.java"
+
+startProcessing "me/bon/badlionplus/event/Events/EventPlayerClickBlock.java" md5: aaec2c4a7df0732c236589d77e08750a
+endProcessing "me/bon/badlionplus/event/Events/EventPlayerClickBlock.java"
+
+startProcessing "me/bon/badlionplus/event/Events/EventPlayerDamageBlock.java" md5: 079eeee8629fd61d808ce65b83c6e21f
+endProcessing "me/bon/badlionplus/event/Events/EventPlayerDamageBlock.java"
+
+startProcessing "me/bon/badlionplus/event/Events/PacketEvent.java" md5: c6585895173d0b17514c6d2737c2a397
+endProcessing "me/bon/badlionplus/event/Events/PacketEvent.java"
+
+startProcessing "me/bon/badlionplus/event/Events/RenderEvent.java" md5: a44ed59d18bbb50ad6ef9ac4788bc277
+endProcessing "me/bon/badlionplus/event/Events/RenderEvent.java"
+
+startProcessing "me/bon/badlionplus/event/Events/TotemPopEvent.java" md5: d32e8dd9e0681200e5de33bb50ec3445
+endProcessing "me/bon/badlionplus/event/Events/TotemPopEvent.java"
+
+startProcessing "me/bon/badlionplus/event/ForgeEventProcessor.java" md5: 4a61786d36d5f1b89907909b5fcd4973
+endProcessing "me/bon/badlionplus/event/ForgeEventProcessor.java"
+
+startProcessing "me/bon/badlionplus/friends/Friend.java" md5: d8f08257c848765a7b9f0cc7aeea4642
+endProcessing "me/bon/badlionplus/friends/Friend.java"
+
+startProcessing "me/bon/badlionplus/friends/Friends.java" md5: e1132a685f01547b2ed59f9499d241d5
+endProcessing "me/bon/badlionplus/friends/Friends.java"
+
+startProcessing "me/bon/badlionplus/mixin/MixinLoader.java" md5: 4f3a39c7b57b1b3245c7385361f293ca
+endProcessing "me/bon/badlionplus/mixin/MixinLoader.java"
+
+startProcessing "me/bon/badlionplus/mixin/Mixins/MixinC00Handshake.java" md5: ab9af315e74f6d70eadd9ebee694eefa
+endProcessing "me/bon/badlionplus/mixin/Mixins/MixinC00Handshake.java"
+
+startProcessing "me/bon/badlionplus/mixin/Mixins/MixinGuiMainMenu.java" md5: b83284495fd316b763be79356c1ee035
+endProcessing "me/bon/badlionplus/mixin/Mixins/MixinGuiMainMenu.java"
+
+startProcessing "me/bon/badlionplus/mixin/Mixins/MixinMovementInputFromOptions.java" md5: dba57d7e256a7aba94b34a855df12920
+endProcessing "me/bon/badlionplus/mixin/Mixins/MixinMovementInputFromOptions.java"
+
+startProcessing "me/bon/badlionplus/mixin/Mixins/MixinNetworkManager.java" md5: eb6d80e76e18720ce4894e186ec3ba4b
+endProcessing "me/bon/badlionplus/mixin/Mixins/MixinNetworkManager.java"
+
+startProcessing "me/bon/badlionplus/mixin/Mixins/MixinPlayerControllerMP.java" md5: 08fd9a6f7bcaa683174878379d330b80
+endProcessing "me/bon/badlionplus/mixin/Mixins/MixinPlayerControllerMP.java"
+
+startProcessing "me/bon/badlionplus/mixin/Mixins/MixinWorld.java" md5: e427499098ec28826cf3de6e1ec843c2
+endProcessing "me/bon/badlionplus/mixin/Mixins/MixinWorld.java"
+
+startProcessing "me/bon/badlionplus/module/Beta/AutoEZ.java" md5: b445883d7d5dce1266595ad2f1de58af
+endProcessing "me/bon/badlionplus/module/Beta/AutoEZ.java"
+
+startProcessing "me/bon/badlionplus/module/Beta/Elevator.java" md5: f83abeb874dc6fe756a43f361b45c88a
+endProcessing "me/bon/badlionplus/module/Beta/Elevator.java"
+
+startProcessing "me/bon/badlionplus/module/Category.java" md5: bce7b4f1563c45024e692f7b0e3cd8c8
+endProcessing "me/bon/badlionplus/module/Category.java"
+
+startProcessing "me/bon/badlionplus/module/Combat/AutoCrystal.java" md5: 3452f3b6f399295919a472231225132c
+endProcessing "me/bon/badlionplus/module/Combat/AutoCrystal.java"
+
+startProcessing "me/bon/badlionplus/module/Combat/AutoTNTCart.java" md5: 705c6695ca1727968f59dd3900ecd4ee
+endProcessing "me/bon/badlionplus/module/Combat/AutoTNTCart.java"
+
+startProcessing "me/bon/badlionplus/module/Combat/AutoTotem.java" md5: 6accd924030bb108af66c84f46f2ce9e
+endProcessing "me/bon/badlionplus/module/Combat/AutoTotem.java"
+
+startProcessing "me/bon/badlionplus/module/Combat/AutoTrap.java" md5: c6d0761ddf432131c0230e1dd279c413
+endProcessing "me/bon/badlionplus/module/Combat/AutoTrap.java"
+
+startProcessing "me/bon/badlionplus/module/Combat/AutoTrapBed.java" md5: 5b3ba1a69d565e9ad21498fbd0308cb6
+endProcessing "me/bon/badlionplus/module/Combat/AutoTrapBed.java"
+
+startProcessing "me/bon/badlionplus/module/Combat/BedAura.java" md5: d838b690f94dbed5bb3e77beb639dbcc
+endProcessing "me/bon/badlionplus/module/Combat/BedAura.java"
+
+startProcessing "me/bon/badlionplus/module/Combat/BowSpam.java" md5: f4bad14e1017637113e90adce81220b1
+endProcessing "me/bon/badlionplus/module/Combat/BowSpam.java"
+
+startProcessing "me/bon/badlionplus/module/Combat/Criticals.java" md5: 87f8a968033030ae897e274fa1af052b
+endProcessing "me/bon/badlionplus/module/Combat/Criticals.java"
+
+startProcessing "me/bon/badlionplus/module/Combat/Offhand.java" md5: 47f7361191ca0995cbfd1bce2377a23a
+endProcessing "me/bon/badlionplus/module/Combat/Offhand.java"
+
+startProcessing "me/bon/badlionplus/module/Combat/PacketAutoCity.java" md5: f732b18250ebd5b7d3d50d2b95648f83
+endProcessing "me/bon/badlionplus/module/Combat/PacketAutoCity.java"
+
+startProcessing "me/bon/badlionplus/module/Combat/Surround.java" md5: 766e4abe733eb3d0af97283dece0c953
+endProcessing "me/bon/badlionplus/module/Combat/Surround.java"
+
+startProcessing "me/bon/badlionplus/module/Exploit/EChestBackPack.java" md5: 64130f8308a33426f65a69dde8b47773
+endProcessing "me/bon/badlionplus/module/Exploit/EChestBackPack.java"
+
+startProcessing "me/bon/badlionplus/module/Exploit/NoHandshake.java" md5: 775ef082a6966e9d9d31a958b1e078fc
+endProcessing "me/bon/badlionplus/module/Exploit/NoHandshake.java"
+
+startProcessing "me/bon/badlionplus/module/Hud/Arraylist.java" md5: 1617882975c86371a305c2065af7e3e2
+endProcessing "me/bon/badlionplus/module/Hud/Arraylist.java"
+
+startProcessing "me/bon/badlionplus/module/Hud/ClickGUI.java" md5: 46e1107d1f95a304fd1d08fb08580031
+endProcessing "me/bon/badlionplus/module/Hud/ClickGUI.java"
+
+startProcessing "me/bon/badlionplus/module/Misc/ChatSuffix.java" md5: b8f9da426c3eabca42b6162cd666aed2
+endProcessing "me/bon/badlionplus/module/Misc/ChatSuffix.java"
+
+startProcessing "me/bon/badlionplus/module/Misc/FakePlayer.java" md5: 6c7eccc2eac7335af2915e57d71d08e7
+endProcessing "me/bon/badlionplus/module/Misc/FakePlayer.java"
+
+startProcessing "me/bon/badlionplus/module/Misc/RpcModule.java" md5: 7d62f84fb40a34ce38ae808568c79b4b
+endProcessing "me/bon/badlionplus/module/Misc/RpcModule.java"
+
+startProcessing "me/bon/badlionplus/module/Misc/TotemPopAnnouncer.java" md5: 8eac1c202d4193f5e39ef589a45ea9b2
+endProcessing "me/bon/badlionplus/module/Misc/TotemPopAnnouncer.java"
+
+startProcessing "me/bon/badlionplus/module/Module.java" md5: 4ee26620905c5b62622c30c19730c921
+endProcessing "me/bon/badlionplus/module/Module.java"
+
+startProcessing "me/bon/badlionplus/module/ModuleManager.java" md5: 03ecf3cd517039e506c2589762c73659
+endProcessing "me/bon/badlionplus/module/ModuleManager.java"
+
+startProcessing "me/bon/badlionplus/module/Movement/Anchor.java" md5: 69dc7fcf40f2b09d381b2f30a5b54cb6
+endProcessing "me/bon/badlionplus/module/Movement/Anchor.java"
+
+startProcessing "me/bon/badlionplus/module/Movement/GuiMove.java" md5: 834ec82049523aa4ea1874dd1d4055e9
+endProcessing "me/bon/badlionplus/module/Movement/GuiMove.java"
+
+startProcessing "me/bon/badlionplus/module/Movement/Sprint.java" md5: cef646c363d4afb8bf4ab5d42ab70389
+endProcessing "me/bon/badlionplus/module/Movement/Sprint.java"
+
+startProcessing "me/bon/badlionplus/module/Movement/Strafe.java" md5: be03d7a0f778e24fdacfe16e743128eb
+endProcessing "me/bon/badlionplus/module/Movement/Strafe.java"
+
+startProcessing "me/bon/badlionplus/module/Movement/Velocity.java" md5: 2ac0ed1fcea9a8fc3afed0001b4f8e96
+endProcessing "me/bon/badlionplus/module/Movement/Velocity.java"
+
+startProcessing "me/bon/badlionplus/module/Player/NoFall.java" md5: f7203ab4644f6c81236070c9323e954a
+endProcessing "me/bon/badlionplus/module/Player/NoFall.java"
+
+startProcessing "me/bon/badlionplus/module/Player/PacketMine.java" md5: cab66c95f80171c7a31198bc437b5632
+endProcessing "me/bon/badlionplus/module/Player/PacketMine.java"
+
+startProcessing "me/bon/badlionplus/module/Render/Fullbright.java" md5: 4a203ed3cb283699762810459002a93b
+endProcessing "me/bon/badlionplus/module/Render/Fullbright.java"
+
+startProcessing "me/bon/badlionplus/module/Render/HoleESP.java" md5: 8210ada5ca9cf4a10749983077e29878
+endProcessing "me/bon/badlionplus/module/Render/HoleESP.java"
+
+startProcessing "me/bon/badlionplus/setting/Setting.java" md5: 42b42a72fed89173a864249d05341d9b
+endProcessing "me/bon/badlionplus/setting/Setting.java"
+
+startProcessing "me/bon/badlionplus/setting/SettingsManager.java" md5: b9bfc62f50607292b8c571c89e3b5191
+endProcessing "me/bon/badlionplus/setting/SettingsManager.java"
+
+startProcessing "me/bon/badlionplus/util/BadlionPair.java" md5: 2e03980ad508997d10920cd86c1ff979
+endProcessing "me/bon/badlionplus/util/BadlionPair.java"
+
+startProcessing "me/bon/badlionplus/util/BadlionTessellator.java" md5: 75a856ed92a225e6b4bebdec13a28405
+endProcessing "me/bon/badlionplus/util/BadlionTessellator.java"
+
+startProcessing "me/bon/badlionplus/util/BlockUtil.java" md5: a62f3ac0bbe2675c30148291609a0375
+endProcessing "me/bon/badlionplus/util/BlockUtil.java"
+
+startProcessing "me/bon/badlionplus/util/BlockUtils.java" md5: cd004096d534bc257e5fee4d37f5169b
+endProcessing "me/bon/badlionplus/util/BlockUtils.java"
+
+startProcessing "me/bon/badlionplus/util/ColorUtils.java" md5: 3d3ee4858f0a260b670894da06d0017c
+endProcessing "me/bon/badlionplus/util/ColorUtils.java"
+
+startProcessing "me/bon/badlionplus/util/ConfigManager.java" md5: ee4b8a8d08c42c38920f2ce9ce2bdcb7
+    Compile Error! Pb(1201) Unlikely argument type for equals(): String seems to be unrelated to Category
+endProcessing "me/bon/badlionplus/util/ConfigManager.java"
+
+startProcessing "me/bon/badlionplus/util/CrystalUtil.java" md5: 63bf20926622301995c0e3ba1e10fd8b
+endProcessing "me/bon/badlionplus/util/CrystalUtil.java"
+
+startProcessing "me/bon/badlionplus/util/EZUtil.java" md5: 500e9391b5c37632c033220a1872cd06
+endProcessing "me/bon/badlionplus/util/EZUtil.java"
+
+startProcessing "me/bon/badlionplus/util/EntityUtil.java" md5: aec16689e7ec5ac6d6156cb166b8ba51
+endProcessing "me/bon/badlionplus/util/EntityUtil.java"
+
+startProcessing "me/bon/badlionplus/util/Font/CFont.java" md5: b5567c22c806527988b83561bbdd8038
+endProcessing "me/bon/badlionplus/util/Font/CFont.java"
+
+startProcessing "me/bon/badlionplus/util/Font/CFontRenderer.java" md5: a303e3370e3e7e9f2b94b049f0fb80df
+endProcessing "me/bon/badlionplus/util/Font/CFontRenderer.java"
+
+startProcessing "me/bon/badlionplus/util/Font/FontUtils.java" md5: f31ce10ecb03ab1b2218745bb68fdc17
+endProcessing "me/bon/badlionplus/util/Font/FontUtils.java"
+
+startProcessing "me/bon/badlionplus/util/GeometryMasks.java" md5: b5b01aa67f6923236e0bbe44ec145f68
+endProcessing "me/bon/badlionplus/util/GeometryMasks.java"
+
+startProcessing "me/bon/badlionplus/util/Messages.java" md5: 11c5cb6214d5cf9ccd0e5d86a9b875f0
+endProcessing "me/bon/badlionplus/util/Messages.java"
+
+startProcessing "me/bon/badlionplus/util/PlayerUtil.java" md5: f9265397b7f495ccfb0505be6e803696
+endProcessing "me/bon/badlionplus/util/PlayerUtil.java"
+
+startProcessing "me/bon/badlionplus/util/RotationUtil.java" md5: 71a51239051685b99dc9b43093c42eba
+endProcessing "me/bon/badlionplus/util/RotationUtil.java"
+
+startProcessing "me/bon/badlionplus/util/Timer.java" md5: 363138132343c807b62e07fef3eddd90
+endProcessing "me/bon/badlionplus/util/Timer.java"
+
