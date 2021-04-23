@@ -1,14 +1,14 @@
 [
 {
-  "modid": "badlionplus",
-  "name": "Badlion+",
-  "description": "Swag anarchy utility mod.",
-  "version": "1.4.3",
+  "modid": "Revolution",
+  "name": "Revolution",
+  "description": "Revolution's Personal Mod",
+  "version": "1.0.0 Alpha",
   "mcversion": "1.12.2",
-  "url": "https://discord.gg/CyDwds3",
+  "url": "https://discord.gg/EtdgF7hHTT",
   "updateUrl": "",
-  "authorList": ["bon"],
-  "credits": "bon for the dope client, a mix of Osiris+ and Obamahack rewrite for the module/command managers and config savers, and a variety of clients for some modules",
+  "authorList": ["Eonexe And RebornPhantom"],
+  "credits": "A modification, and editing of a multititude of seperate clients, mashed together and optimized.",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
