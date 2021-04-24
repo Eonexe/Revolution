@@ -1,14 +1,20 @@
 package me.eonexe.revolution.module.Beta;
 
+import java.util.List;
+
 import com.mojang.realmsclient.gui.ChatFormatting;
 
+import me.eonexe.revolution.friends.Friends;
 import me.eonexe.revolution.module.Category;
 import me.eonexe.revolution.module.Module;
 import me.eonexe.revolution.setting.Setting;
 import me.eonexe.revolution.util.Messages;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemPiston;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.common.MinecraftForge;
@@ -21,6 +27,8 @@ public class Elevator extends Module {
 	private boolean firstSwap = true;
 	private boolean secondSwap = true;
 	private boolean beginPlacing = false;
+	
+	
 	
 	private int lighterSlot;
 	
@@ -82,6 +90,45 @@ public class Elevator extends Module {
 		if(mc.player == null) {
 			//int redstoneSlot = findRedstoneBlock();
 			//int pistonSlot = findPiston();
+			/*
+			if(pistonSlot > -1 && firstSwap) {
+				mc.player.inventory.currentItem = pistonSlot;
+				firstSwap = false;
+				placeBlock(targetPos, EnumFacing.EAST);
+			}
+			*/
+			
 		}
 	}
+	// le me pasting this exact same method into every mf module
+		private void findClosestTarget() {
+	        List<EntityPlayer> playerList = mc.world.playerEntities;
+	        closestTarget = null;
+	        for (EntityPlayer target : playerList) {
+	            if (target == mc.player) {
+	                continue;
+	            }
+	            if (Friends.isFriend(target.getName())) {
+	                continue;
+	            }
+	            if (!isLiving(target)) {
+	                continue;
+	            }
+	            if ((target).getHealth() <= 0) {
+	                continue;
+	            }
+	            if(mc.player.getDistance(target) > 6) {
+	            	//im not gonna bother making a range option
+	            	//6 seems reasonable enough
+	            	continue;
+	            }
+	            if (closestTarget == null) {
+	                closestTarget = target;
+	                continue;
+	            }
+	        }
+	    }
+		public static boolean isLiving(Entity e) {
+	        return e instanceof EntityLivingBase;
+	    }
 }
