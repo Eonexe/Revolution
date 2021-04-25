@@ -1,0 +1,11 @@
+announceUsageTnt:true:5b5t AutoTNTCart
+debugtnt:false:5b5t AutoTNTCart
+AnnounceUsage:true:AutoTrap
+announceUsage:true:ECME BedAura
+placeesp:true:ECME BedAura
+announceUsage:true:PacketAutoCity
+SelfAnvil:false:Surround
+rainbow:true:Arraylist
+greentext:false:TotemPopCounter
+jump:true:Strafe
+custom:false:Auto EZ (WIP)

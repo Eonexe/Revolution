@@ -13,7 +13,7 @@ public class Help extends Command {
 	@Override
     public void onCommand(String[] args) {
 		
-		Messages.sendMessagePrefix(TextFormatting.WHITE + "Badlion+ Help");
+		Messages.sendMessagePrefix(TextFormatting.WHITE + "Revolution Help");
 		Messages.sendMessagePrefix(TextFormatting.WHITE + "Type " + BadlionMod.prefix + "'bind [key] clickgui' to bind the ClickGUI");
 		Messages.sendMessagePrefix(TextFormatting.WHITE + "The current prefix is " + BadlionMod.prefix);
 		Messages.sendMessagePrefix(TextFormatting.WHITE + "Type " + BadlionMod.prefix + "'toggle [module]' to toggle a module");

@@ -16,7 +16,7 @@ public class MixinGuiMainMenu extends GuiScreen {
 
 	@Inject(method = "drawScreen", at = @At("TAIL"), cancellable = true)
 	public void drawText(int mouseX, int mouseY, float partialTicks, CallbackInfo ci) {
-		BadlionMod.fontRenderer.drawStringWithShadow("Badlion+", 2, 2, ColorUtils.GenRainbow());
+		BadlionMod.fontRenderer.drawStringWithShadow("Revolution", 2, 2, ColorUtils.GenRainbow());
 	}
 	
 }

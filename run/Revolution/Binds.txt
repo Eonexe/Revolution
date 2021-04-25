@@ -1,0 +1,26 @@
+5b5t AutoTNTCart:NONE
+AutoTotem:NONE
+AutoTrap:NONE
+ECME BedAura:NONE
+BowSpam:NONE
+Criticals:NONE
+PacketAutoCity:NONE
+Surround:NONE
+EChestBackPack:NONE
+NoHandshake:NONE
+Arraylist:NONE
+ClickGUI:Y
+ChatSuffix:NONE
+DiscordRPC:NONE
+FakePlayer:NONE
+TotemPopCounter:NONE
+Anchor:NONE
+GuiMove:NONE
+Sprint:NONE
+Strafe:NONE
+NoFall:NONE
+PacketMine:NONE
+Velocity:NONE
+Fullbright:NONE
+HoleESP (WIP):NONE
+Auto EZ (WIP):NONE

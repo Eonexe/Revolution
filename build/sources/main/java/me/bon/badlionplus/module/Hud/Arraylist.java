@@ -57,7 +57,7 @@ public class Arraylist extends Module {
             	BadlionMod.fontRenderer.drawStringWithShadow(BadlionMod.NAME + " v" + BadlionMod.VERSION, 2, 190, ColorUtils.GenRainbow());
             	BadlionMod.fontRenderer.drawStringWithShadow("Welcome, " + TextFormatting.WHITE + mc.player.getName(), 2, 200, ColorUtils.GenRainbow());
             	} else {
-            		FontUtils.drawStringWithShadow(true, "Badlion+" + " v" + BadlionMod.VERSION, 2, 190, nonrainbow);
+            		FontUtils.drawStringWithShadow(true, "Revolution" + " v" + BadlionMod.VERSION, 2, 190, nonrainbow);
                 	FontUtils.drawStringWithShadow(true, "Welcome, " + TextFormatting.WHITE + mc.player.getName(), 2, 200, nonrainbow);
             	}
                 for (Module m : BadlionMod.moduleManager.getModules()) {

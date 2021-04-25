@@ -6,7 +6,7 @@ import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextFormatting;
 
 public class Messages {
-    public static String prefix = TextFormatting.BLUE + "[" + TextFormatting.GOLD + "Badlion+"  + TextFormatting.BLUE + "]" + TextFormatting.WHITE;
+    public static String prefix = TextFormatting.BLUE + "[" + TextFormatting.GOLD + "Revolution"  + TextFormatting.BLUE + "]" + TextFormatting.WHITE;
     private static final EntityPlayerSP player = Minecraft.getMinecraft().player;
 
     public static void sendRawMessage(String message) {

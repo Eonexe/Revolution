@@ -36,7 +36,7 @@ public class SettingsManager {
                 return set;
             }
         }
-        System.err.println("[Badlion+] Setting not found Error: '" + name +"'!");
+        System.err.println("[Revolution] Setting not found Error: '" + name +"'!");
         return null;
     }
 
@@ -46,7 +46,7 @@ public class SettingsManager {
                 return s;
             }
         }
-        System.err.println("[Badlion+] Setting not found Error: '" + id +"'!");
+        System.err.println("[Revolution] Setting not found Error: '" + id +"'!");
         return null;
     }
 }
