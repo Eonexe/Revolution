@@ -1,4 +1,6 @@
-FD: me/bon/badlionplus/mixin/Mixins/MixinC00Handshake/protocolVersion me/bon/badlionplus/mixin/Mixins/MixinC00Handshake/a
-FD: me/bon/badlionplus/mixin/Mixins/MixinC00Handshake/ip me/bon/badlionplus/mixin/Mixins/MixinC00Handshake/b
-FD: me/bon/badlionplus/mixin/Mixins/MixinC00Handshake/port me/bon/badlionplus/mixin/Mixins/MixinC00Handshake/c
-FD: me/bon/badlionplus/mixin/Mixins/MixinC00Handshake/requestedState me/bon/badlionplus/mixin/Mixins/MixinC00Handshake/d
+FD: me/travis/wurstplus/mixins/WurstplusMixinEntity/motionX me/travis/wurstplus/mixins/WurstplusMixinEntity/s
+FD: me/travis/wurstplus/mixins/WurstplusMixinEntity/motionY me/travis/wurstplus/mixins/WurstplusMixinEntity/t
+FD: me/travis/wurstplus/mixins/WurstplusMixinEntity/motionZ me/travis/wurstplus/mixins/WurstplusMixinEntity/u
+MD: me/travis/wurstplus/mixins/WurstplusMixinAbstractClientPlayer/getPlayerInfo ()Lnet/minecraft/client/network/NetworkPlayerInfo; me/travis/wurstplus/mixins/WurstplusMixinAbstractClientPlayer/b ()Lbsc;
+MD: me/travis/wurstplus/mixins/WurstplusMixinEntity/move (Lnet/minecraft/entity/MoverType;DDD)V me/travis/wurstplus/mixins/WurstplusMixinEntity/a (Lvv;DDD)V
+MD: me/travis/wurstplus/mixins/WurstplusMixinItemRenderer/renderItemInFirstPerson (Lnet/minecraft/client/entity/AbstractClientPlayer;FFLnet/minecraft/util/EnumHand;FLnet/minecraft/item/ItemStack;F)V me/travis/wurstplus/mixins/WurstplusMixinItemRenderer/a (Lbua;FFLub;FLaip;F)V

@@ -1,2 +1,0 @@
-DiscordRPC
-Auto EZ (WIP)

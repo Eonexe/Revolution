@@ -1,92 +1,127 @@
 buildscript {
-    repositories {
-        jcenter()
-        maven { url = 'https://files.minecraftforge.net/maven' }
-        maven { url = 'https://repo.spongepowered.org/maven' }
-        maven { url = 'https://plugins.gradle.org/m2' }
-    }
-    dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
-        classpath 'org.spongepowered:mixingradle:0.6-SNAPSHOT'
-        classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.4'
-    }
-}
-apply plugin: 'net.minecraftforge.gradle.forge'
-apply plugin: 'org.spongepowered.mixin'
-apply plugin: 'com.github.johnrengelman.shadow'
+	repositories {
+		jcenter()
 
-version = '1.0.0'
-group = 'me.eonexe.revolution'
-archivesBaseName = 'revolution'
+		maven {
+			name = "SpongePowered"
+			url  = "https://repo.spongepowered.org/repository/maven-public/"
+		}
 
-sourceCompatibility = targetCompatibility = '1.8'
-compileJava {
-    sourceCompatibility = targetCompatibility = '1.8'
-}
+		maven {
+			url = "https://files.minecraftforge.net/maven"
+		}
+	}
+
+	dependencies {
+		classpath "net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT"
+		classpath "com.github.jengelman.gradle.plugins:shadow:1.2.3"
+		classpath "org.spongepowered:mixingradle:0.4-SNAPSHOT"
+		}
+	}
+
+
+apply plugin: "net.minecraftforge.gradle.forge";
+apply plugin: "com.github.johnrengelman.shadow";
+apply plugin: "org.spongepowered.mixin"
+
+version          project.client_version
+group            project.client_group
 
 minecraft {
-    version = '1.12.2-14.23.5.2847'
-    runDir = 'run'
-    coreMod = 'me.eonexe.revolution.mixin.MixinLoader'
-    mappings = 'stable_39'
+	version  = "1.12.2-14.23.0.2531"
+	runDir   = "run"
+	coreMod  = "me.travis.wurstplus.mixins.WurstplusMixinLoader"
+	mappings = "snapshot_20180814"
+	makeObfSourceJar = true
 }
 
-jar.manifest.attributes(
-        'FMLCorePluginContainsFMLMod': true,
-        'FMLCorePlugin': 'me.eonexe.revolution.mixin.MixinLoader',
-        'ForceLoadAsMod': true,
-        'TweakClass': 'org.spongepowered.asm.launch.MixinTweaker'
-)
-
 repositories {
-    mavenCentral()
-    jcenter()
-    maven { url = 'https://repo.spongepowered.org/maven' }
-    maven { url = 'https://jitpack.io' }
+	maven {
+		name = "spongepowered-repo"
+		url  = "https://repo.spongepowered.org/maven/"
+	}
+
+	maven {
+		name = "swt-repo"
+		url  = "https://maven-eclipse.github.io/maven"
+	}
+
+	maven {
+		name = "jitpack.io"
+		url  = "https://jitpack.io"
+	}
+
+	mavenCentral()
 }
 
 dependencies {
-    compile "club.minnced:java-discord-rpc:2.0.2"
-    compile ("org.spongepowered:mixin:0.7.11-SNAPSHOT") {
-      exclude module: 'launchwrapper'
-      exclude module: 'guava'
-      exclude module: 'gson'
-      exclude module: 'commons-io'
-      exclude module: 'log4j-core'
-    }
-    compile "com.github.ZeroMemes:Alpine:1.5"
-}
+	compile "com.github.ionar2:Alpine:1.9f"
 
-mixin {
-    add sourceSets.main, 'mixins.badlionplus.refmap.json'
+	compile group : "net.jodah", name : "typetools",   version: "0.5.0"
+	compile group: "com.googlecode.json-simple", name: "json-simple", version: "1.1.1"
+
+	compile("org.spongepowered:mixin:0.7.4-SNAPSHOT") {
+		exclude module: "launchwrapper"
+		exclude module: "commons-io"
+		exclude module: "guava"
+		exclude module: "gson"
+	}
+	
+	// compile 'com.github.Vatuu:discord-rpc:1.5.0'
 }
 
 shadowJar {
-    exclude 'dummyThing'
-    exclude 'LICENSE.txt'
-
-    classifier = ''
+	dependencies {
+		// include(dependency('com.github.Vatuu:discord-rpc'))
+		include(dependency('com.github.ionar2:Alpine'))
+		include(dependency("org.javassist:javassist"))
+		include(dependency("org.spongepowered:mixin"))
+		include(dependency("net.jodah:typetools"))
+		include(dependency('com.googlecode.json-simple:json-simple:1.1.1'))
+	}
 }
-build.dependsOn(shadowJar)
+
+mixin {
+	defaultObfuscationEnv searge
+	add sourceSets.main, "mixins.wurstplus.refmap.json"
+}
 
 reobf {
-    shadowJar {
-        mappingType = 'SEARGE'
-        classpath = sourceSets.main.compileClasspath
-    }
+	shadowJar {
+		mappingType = 'SEARGE'
+		classpath   = sourceSets.main.compileClasspath
+	}
 }
 
 processResources {
-    inputs.property 'version', project.version
-    inputs.property 'mcversion', project.minecraft.version
+	inputs.property "version",   project.version
+	inputs.property "mcversion", project.minecraft.version
 
-    from(sourceSets.main.resources.srcDirs) {
-        include 'mcmod.info'
+	from (sourceSets.main.resources.srcDirs) {
+		include "mcmod.info"
 
-        expand 'version':project.version, 'mcversion':project.minecraft.version
-    }
+		expand "version" : project.version, "mcversion" : project.minecraft.version
+	}
 
-    from(sourceSets.main.resources.srcDirs) {
-        exclude 'mcmod.info'
-    }
+	from (sourceSets.main.resources.srcDirs) {
+		exclude "mcmod.info"
+	}
+
+	rename "(.+_at.cfg)", 'META-INF/$1';
 }
+
+jar {
+	manifest {
+		attributes (
+			"FMLCorePluginContainsFMLMod" : "true",
+			"ForceLoadAsMod"              : "true",
+			"FMLCorePlugin"               : "me.travis.wurstplus.mixins.WurstplusMixinLoader",
+			"MixinConfigs"                : "mixins.wurstplus.json",
+			"tweakClass"                  : "org.spongepowered.asm.launch.MixinTweaker",
+			"TweakOrder"                  : 0,
+			"FMLAT"                       : "wurstplus_at.cfg"
+		)
+	}
+}
+
+build.dependsOn(shadowJar)

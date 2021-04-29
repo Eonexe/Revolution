@@ -1,9 +1,0 @@
-{
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "forest": "2021-04-26 08:45:33 +1000",
-      "plains": "2021-04-26 08:40:55 +1000"
-    },
-    "done": false
-  }
-}

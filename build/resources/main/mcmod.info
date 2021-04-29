@@ -1,16 +1,15 @@
-[
-{
-  "modid": "Revolution",
-  "name": "Revolution",
-  "description": "Revolution's Personal Mod",
-  "version": "1.0.0 Alpha",
-  "mcversion": "1.12.2",
-  "url": "https://discord.gg/EtdgF7hHTT",
-  "updateUrl": "",
-  "authorList": ["Eonexe And RebornPhantom"],
-  "credits": "A modification, and editing of a multititude of seperate clients, mashed together and optimized.",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
-}
-]
+[{
+	"modid"        : "revolution",
+	"name"         : "Revolution",
+	"description"  : "chungus mod",
+	"version"      : "0.0.1",
+	"mcversion"    : "1.12.2-14.23.5.2772",
+	"url"          : "no",
+	"updateUrl"    : "no",
+	"authorList"   : ["Eonexe#0001, Solarus#8223"],
+	"credits"      : "Eonexe",
+	"logoFile"     : "",
+	"screenshots"  : [],
+	"dependencies" : []
+
+}]
