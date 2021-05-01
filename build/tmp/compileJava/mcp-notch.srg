@@ -1,6 +1,6 @@
-FD: me/travis/wurstplus/mixins/WurstplusMixinEntity/motionX me/travis/wurstplus/mixins/WurstplusMixinEntity/s
-FD: me/travis/wurstplus/mixins/WurstplusMixinEntity/motionY me/travis/wurstplus/mixins/WurstplusMixinEntity/t
-FD: me/travis/wurstplus/mixins/WurstplusMixinEntity/motionZ me/travis/wurstplus/mixins/WurstplusMixinEntity/u
-MD: me/travis/wurstplus/mixins/WurstplusMixinAbstractClientPlayer/getPlayerInfo ()Lnet/minecraft/client/network/NetworkPlayerInfo; me/travis/wurstplus/mixins/WurstplusMixinAbstractClientPlayer/b ()Lbsc;
-MD: me/travis/wurstplus/mixins/WurstplusMixinEntity/move (Lnet/minecraft/entity/MoverType;DDD)V me/travis/wurstplus/mixins/WurstplusMixinEntity/a (Lvv;DDD)V
-MD: me/travis/wurstplus/mixins/WurstplusMixinItemRenderer/renderItemInFirstPerson (Lnet/minecraft/client/entity/AbstractClientPlayer;FFLnet/minecraft/util/EnumHand;FLnet/minecraft/item/ItemStack;F)V me/travis/wurstplus/mixins/WurstplusMixinItemRenderer/a (Lbua;FFLub;FLaip;F)V
+FD: me/eonexe/chungus/hack/mixins/WurstplusMixinEntity/motionX me/eonexe/chungus/hack/mixins/WurstplusMixinEntity/s
+FD: me/eonexe/chungus/hack/mixins/WurstplusMixinEntity/motionY me/eonexe/chungus/hack/mixins/WurstplusMixinEntity/t
+FD: me/eonexe/chungus/hack/mixins/WurstplusMixinEntity/motionZ me/eonexe/chungus/hack/mixins/WurstplusMixinEntity/u
+MD: me/eonexe/chungus/hack/mixins/WurstplusMixinAbstractClientPlayer/getPlayerInfo ()Lnet/minecraft/client/network/NetworkPlayerInfo; me/eonexe/chungus/hack/mixins/WurstplusMixinAbstractClientPlayer/b ()Lbsc;
+MD: me/eonexe/chungus/hack/mixins/WurstplusMixinEntity/move (Lnet/minecraft/entity/MoverType;DDD)V me/eonexe/chungus/hack/mixins/WurstplusMixinEntity/a (Lvv;DDD)V
+MD: me/eonexe/chungus/hack/mixins/WurstplusMixinItemRenderer/renderItemInFirstPerson (Lnet/minecraft/client/entity/AbstractClientPlayer;FFLnet/minecraft/util/EnumHand;FLnet/minecraft/item/ItemStack;F)V me/eonexe/chungus/hack/mixins/WurstplusMixinItemRenderer/a (Lbua;FFLub;FLaip;F)V

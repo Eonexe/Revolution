@@ -1,8 +1,5 @@
 package me.eonexe.chungus.hack.util;
 
-
-import com.gamesense.api.util.player.social.SocialManager;
-
 import me.eonexe.chungus.hack.guiscreen.settings.WurstplusSetting;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;

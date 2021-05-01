@@ -8,6 +8,18 @@ import me.eonexe.chungus.hack.util.WurstplusBlockUtil;
 import me.eonexe.chungus.hack.util.WurstplusEntityUtil;
 import me.eonexe.chungus.hack.util.WurstplusFriendUtil;
 import me.eonexe.chungus.hack.util.WurstplusMessageUtil;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockEnderChest;
+import net.minecraft.block.BlockObsidian;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.item.EntityItem;
+import net.minecraft.entity.item.EntityXPOrb;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.math.AxisAlignedBB;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Vec3d;
 
 import java.util.ArrayList;
 import java.util.Collections;

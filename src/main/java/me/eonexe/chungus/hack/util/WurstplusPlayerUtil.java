@@ -2,9 +2,6 @@ package me.eonexe.chungus.hack.util;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import com.gamesense.api.util.world.EntityUtil;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.math.AxisAlignedBB;

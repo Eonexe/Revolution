@@ -1,634 +1,637 @@
-Unsupposrted library path: C:\Users\sammu\Desktop\wurstplus-two-master\build\classes\java\api
-Unsupposrted library path: C:\Users\sammu\Desktop\wurstplus-two-master\build\resources\api
+Unsupposrted library path: C:\Users\sammu\Desktop\Revolution\build\classes\java\api
+Unsupposrted library path: C:\Users\sammu\Desktop\Revolution\build\resources\api
 Symbol range map extraction starting
-Processing 210 files
-startProcessing "me/travis/turok/Turok.java" md5: eb4b1c497cff42b1758884aae8c439ed
-endProcessing "me/travis/turok/Turok.java"
+Processing 211 files
+startProcessing "me/eonexe/chungus/Chungus.java" md5: c7f29efaa41cbbdba2cbc58db6a6539b
+endProcessing "me/eonexe/chungus/Chungus.java"
 
-startProcessing "me/travis/turok/draw/GL.java" md5: 7286371d0008871c727cd1f225954e6e
-endProcessing "me/travis/turok/draw/GL.java"
+startProcessing "me/eonexe/chungus/hack/command/WurstplusCommand.java" md5: 7c4bc798c493258b9f58a2a6b0d3760d
+endProcessing "me/eonexe/chungus/hack/command/WurstplusCommand.java"
 
-startProcessing "me/travis/turok/draw/RenderHelp.java" md5: c3714b08bc95e2d76cf3b0f64cf8258f
-endProcessing "me/travis/turok/draw/RenderHelp.java"
+startProcessing "me/eonexe/chungus/hack/command/WurstplusCommands.java" md5: 3ca205add6599f7223b9b2c6abbac045
+endProcessing "me/eonexe/chungus/hack/command/WurstplusCommands.java"
 
-startProcessing "me/travis/turok/task/Font.java" md5: 2ba89ab2768e49a6c127ec2728ade071
-endProcessing "me/travis/turok/task/Font.java"
+startProcessing "me/eonexe/chungus/hack/command/commands/Alert.java" md5: dac9e1295b791864acb14100ceca7999
+endProcessing "me/eonexe/chungus/hack/command/commands/Alert.java"
 
-startProcessing "me/travis/turok/task/Rect.java" md5: e2ebd6c1bf50beb6e2c6aa04977d539a
-endProcessing "me/travis/turok/task/Rect.java"
+startProcessing "me/eonexe/chungus/hack/command/commands/Bind.java" md5: 6dedbb02c3c7e5fe6fb16024d4eb45d6
+endProcessing "me/eonexe/chungus/hack/command/commands/Bind.java"
 
-startProcessing "me/travis/turok/values/TurokBoolean.java" md5: 09478d8e8696976fdd67bb332ef7482b
-endProcessing "me/travis/turok/values/TurokBoolean.java"
+startProcessing "me/eonexe/chungus/hack/command/commands/Config.java" md5: cad2d85c30a0d52b4a551d7c3054247c
+endProcessing "me/eonexe/chungus/hack/command/commands/Config.java"
 
-startProcessing "me/travis/turok/values/TurokDouble.java" md5: 1b205ae0eaaf68e6d0132c7fead92cf6
-endProcessing "me/travis/turok/values/TurokDouble.java"
+startProcessing "me/eonexe/chungus/hack/command/commands/Drawn.java" md5: b4efb2e300683ae74d28a67aaf22da53
+endProcessing "me/eonexe/chungus/hack/command/commands/Drawn.java"
 
-startProcessing "me/travis/turok/values/TurokEnum.java" md5: 0bef81a57d5c42f7f291a2f9631334cc
-endProcessing "me/travis/turok/values/TurokEnum.java"
+startProcessing "me/eonexe/chungus/hack/command/commands/WurstplusEnemy.java" md5: 6df90adeb10c5c38d12e99134c00100c
+endProcessing "me/eonexe/chungus/hack/command/commands/WurstplusEnemy.java"
 
-startProcessing "me/travis/turok/values/TurokFloat.java" md5: b1025c0ed4b379a28d624a80846c2fab
-endProcessing "me/travis/turok/values/TurokFloat.java"
+startProcessing "me/eonexe/chungus/hack/command/commands/WurstplusEzMessage.java" md5: 70ed12077a8cc457b811bbc9057d31ab
+endProcessing "me/eonexe/chungus/hack/command/commands/WurstplusEzMessage.java"
 
-startProcessing "me/travis/turok/values/TurokGeneric.java" md5: 361ec953c4c927496426b46c49e9462d
-endProcessing "me/travis/turok/values/TurokGeneric.java"
+startProcessing "me/eonexe/chungus/hack/command/commands/WurstplusFriend.java" md5: 2f144bebc7b639629fbcb84877e84970
+endProcessing "me/eonexe/chungus/hack/command/commands/WurstplusFriend.java"
 
-startProcessing "me/travis/turok/values/TurokInt.java" md5: 15e0ad8e7a6913150ea4a5482fb30be7
-endProcessing "me/travis/turok/values/TurokInt.java"
+startProcessing "me/eonexe/chungus/hack/command/commands/WurstplusHelp.java" md5: bc3adabc88169ad5684645452f8a01ac
+endProcessing "me/eonexe/chungus/hack/command/commands/WurstplusHelp.java"
 
-startProcessing "me/travis/turok/values/TurokString.java" md5: fbdec584f8c36fb0a44cc8bdb58252bd
-endProcessing "me/travis/turok/values/TurokString.java"
+startProcessing "me/eonexe/chungus/hack/command/commands/WurstplusPrefix.java" md5: f221f813a731988add9bcf432bdf65f0
+endProcessing "me/eonexe/chungus/hack/command/commands/WurstplusPrefix.java"
 
-startProcessing "me/travis/wurstplus/Wurstplus.java" md5: 11f79a3b6dda4005013444fd26689bb1
-endProcessing "me/travis/wurstplus/Wurstplus.java"
+startProcessing "me/eonexe/chungus/hack/command/commands/WurstplusSettings.java" md5: 5f477c9564b18567664faa7b53c46d4c
+endProcessing "me/eonexe/chungus/hack/command/commands/WurstplusSettings.java"
 
-startProcessing "me/travis/wurstplus/mixins/WurstplusMixinAbstractClientPlayer.java" md5: b76ab1e88f5ad7115ab90847bad34815
-endProcessing "me/travis/wurstplus/mixins/WurstplusMixinAbstractClientPlayer.java"
+startProcessing "me/eonexe/chungus/hack/command/commands/WurstplusToggle.java" md5: 57020a361929a7cbf8d2b9e660a30412
+endProcessing "me/eonexe/chungus/hack/command/commands/WurstplusToggle.java"
 
-startProcessing "me/travis/wurstplus/mixins/WurstplusMixinEntity.java" md5: 9e83551cd513a23457818054eee86fc2
-endProcessing "me/travis/wurstplus/mixins/WurstplusMixinEntity.java"
+startProcessing "me/eonexe/chungus/hack/event/WurstplusEventBus.java" md5: 2b7b8424bf53113c6450ffc440731080
+endProcessing "me/eonexe/chungus/hack/event/WurstplusEventBus.java"
 
-startProcessing "me/travis/wurstplus/mixins/WurstplusMixinEntityRenderer.java" md5: de1d6265a0b1215ca6bcfac7cd810feb
-endProcessing "me/travis/wurstplus/mixins/WurstplusMixinEntityRenderer.java"
+startProcessing "me/eonexe/chungus/hack/event/WurstplusEventCancellable.java" md5: ab865a20f32d218addc2e3ab394e377b
+endProcessing "me/eonexe/chungus/hack/event/WurstplusEventCancellable.java"
 
-startProcessing "me/travis/wurstplus/mixins/WurstplusMixinEntitySP.java" md5: 3129412ba836a367064242f844a410d2
-endProcessing "me/travis/wurstplus/mixins/WurstplusMixinEntitySP.java"
+startProcessing "me/eonexe/chungus/hack/event/WurstplusEventHandler.java" md5: 4a2910eb94a7acc5128dd630bb39541a
+endProcessing "me/eonexe/chungus/hack/event/WurstplusEventHandler.java"
 
-startProcessing "me/travis/wurstplus/mixins/WurstplusMixinGuiNewChat.java" md5: 8ac273659227fe9ec68bca02c52692dd
-endProcessing "me/travis/wurstplus/mixins/WurstplusMixinGuiNewChat.java"
+startProcessing "me/eonexe/chungus/hack/event/WurstplusEventRegister.java" md5: 76dbda66d6428cf4eae044cba0752c24
+endProcessing "me/eonexe/chungus/hack/event/WurstplusEventRegister.java"
 
-startProcessing "me/travis/wurstplus/mixins/WurstplusMixinGuiPlayerTabOverlay.java" md5: b51e895d44a6b454f8dfdd7b79a770c6
-endProcessing "me/travis/wurstplus/mixins/WurstplusMixinGuiPlayerTabOverlay.java"
+startProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventBlock.java" md5: e382fc837fb704c51917bd38492a9fdc
+endProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventBlock.java"
 
-startProcessing "me/travis/wurstplus/mixins/WurstplusMixinGuiScreen.java" md5: 500cfd79d6c87ea301039627f821dd01
-endProcessing "me/travis/wurstplus/mixins/WurstplusMixinGuiScreen.java"
+startProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventDamageBlock.java" md5: 0a18ee38c83d039251f3476e6ad1464f
+endProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventDamageBlock.java"
 
-startProcessing "me/travis/wurstplus/mixins/WurstplusMixinItemRenderer.java" md5: b554765c86bd1b66d14054024fe81d64
-endProcessing "me/travis/wurstplus/mixins/WurstplusMixinItemRenderer.java"
+startProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventEntity.java" md5: b6b275d46b610ea101ce68aac267aa0d
+endProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventEntity.java"
 
-startProcessing "me/travis/wurstplus/mixins/WurstplusMixinLoader.java" md5: b92ebe70f55a53360fd1fc8c2e3b5581
-endProcessing "me/travis/wurstplus/mixins/WurstplusMixinLoader.java"
+startProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventEntityRemoved.java" md5: 08a1df452386f4a6c9d1dcbd28db4537
+endProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventEntityRemoved.java"
 
-startProcessing "me/travis/wurstplus/mixins/WurstplusMixinMinecraft.java" md5: c0c8cf55a9644465b01c9d354c2a4a9d
-endProcessing "me/travis/wurstplus/mixins/WurstplusMixinMinecraft.java"
+startProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventGUIScreen.java" md5: 2ae9df3f316be119062eb1f2c2c802a8
+endProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventGUIScreen.java"
 
-startProcessing "me/travis/wurstplus/mixins/WurstplusMixinNetworkManager.java" md5: 741e1bb3297493198104194871b5793e
-endProcessing "me/travis/wurstplus/mixins/WurstplusMixinNetworkManager.java"
+startProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventGameOverlay.java" md5: 6f1ac5a5194bf4e45a476b11fd46ad52
+endProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventGameOverlay.java"
 
-startProcessing "me/travis/wurstplus/mixins/WurstplusMixinPlayer.java" md5: 314e08aba5056463a6b25b3c9d909149
-endProcessing "me/travis/wurstplus/mixins/WurstplusMixinPlayer.java"
+startProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventMotionUpdate.java" md5: 61a91ee02b28c0b9f46ef4989f29944e
+endProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventMotionUpdate.java"
 
-startProcessing "me/travis/wurstplus/mixins/WurstplusMixinPlayerControllerMP.java" md5: f5de40af6c9419d23021980b2d4091e3
-endProcessing "me/travis/wurstplus/mixins/WurstplusMixinPlayerControllerMP.java"
+startProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventMove.java" md5: 645307e87a4fd572e481146d998ae148
+endProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventMove.java"
 
-startProcessing "me/travis/wurstplus/mixins/WurstplusMixinRenderLivingBase.java" md5: 1e5cc376de03a715f338ebd9f3c07342
-endProcessing "me/travis/wurstplus/mixins/WurstplusMixinRenderLivingBase.java"
+startProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventPacket.java" md5: d5c26b52f79291be92551728c4679cf7
+endProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventPacket.java"
 
-startProcessing "me/travis/wurstplus/mixins/WurstplusMixinRenderPlayer.java" md5: 19046c7cc8bc7afbe178f525c589c023
-endProcessing "me/travis/wurstplus/mixins/WurstplusMixinRenderPlayer.java"
+startProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventPlayerJump.java" md5: a6c17541c3ee1bd84c983ca1bce87214
+endProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventPlayerJump.java"
 
-startProcessing "me/travis/wurstplus/mixins/WurstplusMixinWorld.java" md5: 07de699d92ea961cbdd7158e207f5e67
-endProcessing "me/travis/wurstplus/mixins/WurstplusMixinWorld.java"
+startProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventPlayerTravel.java" md5: 82575ea56c3aee502cd2807af73a0192
+endProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventPlayerTravel.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/command/WurstplusCommand.java" md5: b8ccc3db3c3e785666db9a6f8a69b148
-endProcessing "me/travis/wurstplus/wurstplustwo/command/WurstplusCommand.java"
+startProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventRender.java" md5: d2f058ee00a1fc78f2bda4accf13014c
+endProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventRender.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/command/WurstplusCommands.java" md5: 516c5dec09b5e0410eba934fcf3837a1
-endProcessing "me/travis/wurstplus/wurstplustwo/command/WurstplusCommands.java"
+startProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventRenderEntityModel.java" md5: 5d586c3b24a3ef41e619db3a73f38296
+endProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventRenderEntityModel.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusAlert.java" md5: 581920f2068fad2a2e1f1b5e05921c2d
-endProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusAlert.java"
+startProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventRenderName.java" md5: ccba64b723a4401cae9364ea800cb0ac
+endProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventRenderName.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusBind.java" md5: fe412fdc6ac3f68e1b648acb4391c08d
-endProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusBind.java"
+startProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventSetupFog.java" md5: 3565aed4df08963c40ed51443eb4af82
+endProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventSetupFog.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusConfig.java" md5: 1a161b2a78d83bfc82c59d48362da043
-endProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusConfig.java"
+startProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventSwing.java" md5: 0ce56cc8d952a09f1ea16d81a801e5f1
+endProcessing "me/eonexe/chungus/hack/event/events/WurstplusEventSwing.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusDrawn.java" md5: 258878c9dbdddc8044235fab5822a065
-endProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusDrawn.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/WurstplusGUI.java" md5: 50dd560eabc25cd1456a3f880a1b3e37
+endProcessing "me/eonexe/chungus/hack/guiscreen/WurstplusGUI.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusEnemy.java" md5: 7a9389588e6635d555341b4111f1128e
-endProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusEnemy.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/WurstplusHUD.java" md5: 58ba07761b7b06ff74611a4014e0b47e
+endProcessing "me/eonexe/chungus/hack/guiscreen/WurstplusHUD.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusEzMessage.java" md5: 7c84bf3cc020c6a27d15328a6a411610
-endProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusEzMessage.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusArmorDurabilityWarner.java" md5: ef8f0c37dd828b792142ffd3cfb11b35
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusArmorDurabilityWarner.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusFriend.java" md5: c685703c0571d03a08ff2046fb5aee6c
-endProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusFriend.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusArmorPreview.java" md5: 4cbc1c9f4ee58baaf1c109ce41e294ad
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusArmorPreview.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusHelp.java" md5: a1dcdbe7f5d115e55fe836656fcd446d
-endProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusHelp.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusArrayList.java" md5: d6fb7036e4d7f700bf9cca9306a46b44
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusArrayList.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusPrefix.java" md5: ab8420d5a177ea35eed649482f01896f
-endProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusPrefix.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusCompass.java" md5: f8197d87baa1b1120ec762b1ffac4ae0
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusCompass.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusSettings.java" md5: c87555613ba7e2ee4e91caa3f8b7c329
-endProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusSettings.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusCoordinates.java" md5: bf163cef6186fc3dd3499a2cb7cc8408
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusCoordinates.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusToggle.java" md5: 6c6b49cb509b7e9359c89bba19abc1ea
-endProcessing "me/travis/wurstplus/wurstplustwo/command/commands/WurstplusToggle.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusCrystalCount.java" md5: 0b46043733f86e92a207b19b7acec846
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusCrystalCount.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/WurstplusEventBus.java" md5: 781a23ba0ebbe190f1ab01b952785f66
-endProcessing "me/travis/wurstplus/wurstplustwo/event/WurstplusEventBus.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusDirection.java" md5: 30bc1dac1d1af3b3a2ad8fe87f41d046
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusDirection.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/WurstplusEventCancellable.java" md5: ba1120f82253762dedc027479403a2b7
-endProcessing "me/travis/wurstplus/wurstplustwo/event/WurstplusEventCancellable.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusEXPCount.java" md5: 418fe94b22d29c917b21ed14d09c4f2c
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusEXPCount.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/WurstplusEventHandler.java" md5: 6ece63eec69852adda989b756992fa6f
-endProcessing "me/travis/wurstplus/wurstplustwo/event/WurstplusEventHandler.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusEffectHud.java" md5: ef1222de6579ed6936567c031a9e5793
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusEffectHud.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/WurstplusEventRegister.java" md5: ce0bb886bf6e76e1c8ab0aa30f3063c6
-endProcessing "me/travis/wurstplus/wurstplustwo/event/WurstplusEventRegister.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusEntityList.java" md5: 178801335a7e9c541a1cf45e92df41cd
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusEntityList.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventBlock.java" md5: 348c029788084ec7881f04c8df61bbd4
-endProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventBlock.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusFPS.java" md5: f535c867db6724cb9ffed9239fb398af
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusFPS.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventDamageBlock.java" md5: ba02f3cc00f47770fd64001e60421992
-endProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventDamageBlock.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusFriendList.java" md5: 3943905f9dfef73ca334785528c17d25
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusFriendList.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventEntity.java" md5: 725a13cc181ec39f16e305cf8ac24090
-endProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventEntity.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusGappleCount.java" md5: 16cdc63f28a7a432067514c1aa33e7e0
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusGappleCount.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventEntityRemoved.java" md5: 1ec121937be441650a84215ce19f50f7
-endProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventEntityRemoved.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusInventoryPreview.java" md5: f16cc7ee71553ad4b42d8492983067dd
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusInventoryPreview.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventGUIScreen.java" md5: 53972feddd4498f941820f18b7028ef8
-endProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventGUIScreen.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusInventoryXCarryPreview.java" md5: d2c498fbb13d9322ffd500aac61cda4a
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusInventoryXCarryPreview.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventGameOverlay.java" md5: 340b821aec33ccbeaf886099c3a90e84
-endProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventGameOverlay.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusLogo.java" md5: 441667744a720e7771733ae328078d0f
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusLogo.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventMotionUpdate.java" md5: b513d743afa7c38821b55226a3ab938a
-endProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventMotionUpdate.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusPing.java" md5: 9ff07ea1f2ea2773a6e36c7d03c11704
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusPing.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventMove.java" md5: cb9186376c57ae82a366178103e0ddc2
-endProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventMove.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusPlayerList.java" md5: 40506b2c9003854c8956449096a8b342
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusPlayerList.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventPacket.java" md5: 6b8cd49fa182bb14143b94f09cdb4e8b
-endProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventPacket.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusPvpHud.java" md5: 26accd3063307b3a76c69ff84b5b803b
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusPvpHud.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventPlayerJump.java" md5: baa98638351e4363329b2ae556aa3818
-endProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventPlayerJump.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusSpeedometer.java" md5: 7501abf28ea0302b957d8d41898411c3
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusSpeedometer.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventPlayerTravel.java" md5: 05609b89d52e7b996addbdcca56d043a
-endProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventPlayerTravel.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusSurroundBlocks.java" md5: 60edf8fe81f54d322fdee4cde29ad5b1
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusSurroundBlocks.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventRender.java" md5: 42f4e71e019bddd86aaf2ea7e9e475ea
-endProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventRender.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusTPS.java" md5: a27740c2f33b20a712c92263e4efcb8a
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusTPS.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventRenderEntityModel.java" md5: 97c92d5f4e21d0a2d94a1097a5de62b8
-endProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventRenderEntityModel.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusTime.java" md5: b7400e386e2363fc767b256733394651
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusTime.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventRenderName.java" md5: f2795acbad577f90713acf140337005d
-endProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventRenderName.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusTotemCount.java" md5: 9b44eb467af79ae8c15e55c50bbf23ed
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusTotemCount.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventSetupFog.java" md5: 052cb558c6608b04bc6053278584d478
-endProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventSetupFog.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusUser.java" md5: 8909624a9ae3ef5d98f9d68068dcdf44
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusUser.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventSwing.java" md5: 4951048baaa8d48e5ec2d6fcc5d7a44d
-endProcessing "me/travis/wurstplus/wurstplustwo/event/events/WurstplusEventSwing.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusWatermark.java" md5: eba0529916c4dbbf44c86a24d1455282
+endProcessing "me/eonexe/chungus/hack/guiscreen/hud/WurstplusWatermark.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/WurstplusGUI.java" md5: f415a05e83e992d697f36c6b1110e494
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/WurstplusGUI.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/render/WurstplusDraw.java" md5: 90d75418474dbdb9f923f80cc0c6f7ae
+endProcessing "me/eonexe/chungus/hack/guiscreen/render/WurstplusDraw.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/WurstplusHUD.java" md5: bbfd8e6c600ec2a93f17ada6d8586037
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/WurstplusHUD.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/render/components/WurstplusAbstractWidget.java" md5: 7988e3ddc316e55771f5cc0c111fffed
+endProcessing "me/eonexe/chungus/hack/guiscreen/render/components/WurstplusAbstractWidget.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusArmorDurabilityWarner.java" md5: e99784a87154d726d27f895d6e0b40d4
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusArmorDurabilityWarner.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/render/components/WurstplusFrame.java" md5: 34ed1ab482991fa2a4cbdfca76c5c67e
+endProcessing "me/eonexe/chungus/hack/guiscreen/render/components/WurstplusFrame.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusArmorPreview.java" md5: 714732b32999a58b3ff783ddf01678b9
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusArmorPreview.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/render/components/WurstplusModuleButton.java" md5: c1dfc3484eec6f3a4a148e637ca8a22a
+endProcessing "me/eonexe/chungus/hack/guiscreen/render/components/WurstplusModuleButton.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusArrayList.java" md5: 83d0554aab6b0ecb576e7d84a775e867
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusArrayList.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/render/components/widgets/WurstplusButton.java" md5: c2b8b459dafcbadd8657caec18abb931
+endProcessing "me/eonexe/chungus/hack/guiscreen/render/components/widgets/WurstplusButton.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusCompass.java" md5: 6f2651fca54eb5b1b8fdbf01e43309ae
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusCompass.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/render/components/widgets/WurstplusButtonBind.java" md5: 16e97fe8b67ebc6b91938f7c702ef896
+endProcessing "me/eonexe/chungus/hack/guiscreen/render/components/widgets/WurstplusButtonBind.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusCoordinates.java" md5: a7405201d6490ce83225c743817fc0d1
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusCoordinates.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/render/components/widgets/WurstplusCombobox.java" md5: 5802b497d2b829796a6f77e26c442696
+endProcessing "me/eonexe/chungus/hack/guiscreen/render/components/widgets/WurstplusCombobox.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusCrystalCount.java" md5: fff8193471ea633b9450d748e274bae6
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusCrystalCount.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/render/components/widgets/WurstplusLabel.java" md5: 4ec66537c21854e87ab462a7d4de710f
+endProcessing "me/eonexe/chungus/hack/guiscreen/render/components/widgets/WurstplusLabel.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusDirection.java" md5: b26944a0746442e08da983bf2b8cb7d6
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusDirection.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/render/components/widgets/WurstplusSlider.java" md5: cf90af227d201831ef50fbc9f57126e7
+endProcessing "me/eonexe/chungus/hack/guiscreen/render/components/widgets/WurstplusSlider.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusEXPCount.java" md5: 4ce403e7e260b085bffad775a86f0766
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusEXPCount.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/render/pinnables/WurstplusFrame.java" md5: 89ef2979c560c239535a72f02e057347
+endProcessing "me/eonexe/chungus/hack/guiscreen/render/pinnables/WurstplusFrame.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusEffectHud.java" md5: 829a2ceeeb707613dd8cb5fbb8e3091c
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusEffectHud.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/render/pinnables/WurstplusPinnable.java" md5: 053cc33e0f30578eb734acd515874a63
+endProcessing "me/eonexe/chungus/hack/guiscreen/render/pinnables/WurstplusPinnable.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusEntityList.java" md5: f773df015b2a209566252c63b0c8c211
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusEntityList.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/render/pinnables/WurstplusPinnableButton.java" md5: 9ebf9167c6d17d59d31b035362f3983a
+endProcessing "me/eonexe/chungus/hack/guiscreen/render/pinnables/WurstplusPinnableButton.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusFPS.java" md5: 7fe71a1cdeb4f091038f92e1ec6fbd76
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusFPS.java"
+startProcessing "me/eonexe/chungus/hack/guiscreen/settings/WurstplusSetting.java" md5: 6a9ab9e98baa737419d9dad47a3a3f27
+endProcessing "me/eonexe/chungus/hack/guiscreen/settings/WurstplusSetting.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusFriendList.java" md5: f29e1919967ae15f499cc64035f6d923
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusFriendList.java"
+startProcessing "me/eonexe/chungus/hack/manager/WurstplusCommandManager.java" md5: a13966e80da16615fe03431a31eca576
+endProcessing "me/eonexe/chungus/hack/manager/WurstplusCommandManager.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusGappleCount.java" md5: aded83c4c12064a7cfde3476a7a536c7
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusGappleCount.java"
+startProcessing "me/eonexe/chungus/hack/manager/WurstplusConfigManager.java" md5: d28affe459999c891b27553dc6b099c4
+endProcessing "me/eonexe/chungus/hack/manager/WurstplusConfigManager.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusInventoryPreview.java" md5: 5b1307da4be364cc96f255d808ec2f1d
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusInventoryPreview.java"
+startProcessing "me/eonexe/chungus/hack/manager/WurstplusEventManager.java" md5: f4ef62d955260432a1134fc53ea679ed
+endProcessing "me/eonexe/chungus/hack/manager/WurstplusEventManager.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusInventoryXCarryPreview.java" md5: aeb3fdd17ab25ac5627d141ffa60b538
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusInventoryXCarryPreview.java"
+startProcessing "me/eonexe/chungus/hack/manager/WurstplusHUDManager.java" md5: 61d4af465d650a347ecdc84683925cd7
+endProcessing "me/eonexe/chungus/hack/manager/WurstplusHUDManager.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusLogo.java" md5: c2b68a84b36fe731841ffe79bf641c2e
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusLogo.java"
+startProcessing "me/eonexe/chungus/hack/manager/WurstplusModuleManager.java" md5: 3749d8540d9adbeda047f544f0e7950e
+endProcessing "me/eonexe/chungus/hack/manager/WurstplusModuleManager.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusPing.java" md5: c5389b0d41159074694518dc30d947e9
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusPing.java"
+startProcessing "me/eonexe/chungus/hack/manager/WurstplusSettingManager.java" md5: a12e8196066b69555ebc5c76fc1cc84c
+endProcessing "me/eonexe/chungus/hack/manager/WurstplusSettingManager.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusPlayerList.java" md5: 144365783bf3e624d808be310b38d115
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusPlayerList.java"
+startProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinAbstractClientPlayer.java" md5: af1357fce7e9ab3151bf47902d904eb2
+endProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinAbstractClientPlayer.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusPvpHud.java" md5: 7d27501956cc3479059d78a1abe54d2b
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusPvpHud.java"
+startProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinEntity.java" md5: df5209bbf65138dabbd45e8377b5ed45
+endProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinEntity.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusSpeedometer.java" md5: 9731ec26ed37b33bb422e419aabbf1eb
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusSpeedometer.java"
+startProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinEntityRenderer.java" md5: cddf7dd9a7e249298fe5dca4411a0c41
+endProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinEntityRenderer.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusSurroundBlocks.java" md5: 8d2aefcc3e7b6be979c9d30bfaa551c4
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusSurroundBlocks.java"
+startProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinEntitySP.java" md5: b89cece6c97a6094cfb9edae496487d5
+endProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinEntitySP.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusTPS.java" md5: 5e5e3c0d01d571efd5a33fef54ea8f3b
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusTPS.java"
+startProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinGuiNewChat.java" md5: 411aacc3d9ca8c038be1dc6b4797d10e
+endProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinGuiNewChat.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusTime.java" md5: b38dba71095a998d208431863fd0bf1e
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusTime.java"
+startProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinGuiPlayerTabOverlay.java" md5: 7d8b30f2f56b8f1118e051201ef4ece3
+endProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinGuiPlayerTabOverlay.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusTotemCount.java" md5: 4126ac05f027ecedc680bc14be01fe01
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusTotemCount.java"
+startProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinGuiScreen.java" md5: 222c1066a18101197a9d900135efe248
+endProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinGuiScreen.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusUser.java" md5: 97208a0ac69dfd44ff4ed114758ac492
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusUser.java"
+startProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinItemRenderer.java" md5: 367046fa322416d3cd657b0bc29f33cd
+endProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinItemRenderer.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusWatermark.java" md5: 20584c87339fefcd26e627b480e7e958
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/hud/WurstplusWatermark.java"
+startProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinLoader.java" md5: c8cf4d3d386fb459794e1c3c32515950
+endProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinLoader.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/WurstplusDraw.java" md5: 38e5aa627f7ee22a96c0e63957841ba8
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/WurstplusDraw.java"
+startProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinMinecraft.java" md5: 17cfc87918e7ffc51d53bc38d1fbb142
+endProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinMinecraft.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/components/WurstplusAbstractWidget.java" md5: a8f1c473ac7e04ecd668bc48cbc91377
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/components/WurstplusAbstractWidget.java"
+startProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinNetworkManager.java" md5: 02380fd295dce2ac652b93321f65ee09
+endProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinNetworkManager.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/components/WurstplusFrame.java" md5: 6bde5fcbf0f4abf8df6ca5e64f826d59
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/components/WurstplusFrame.java"
+startProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinPlayer.java" md5: 8c90afa7dea3757b981d9e929a89e363
+endProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinPlayer.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/components/WurstplusModuleButton.java" md5: 2042348d1b7c5f4062045a2d4b559639
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/components/WurstplusModuleButton.java"
+startProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinPlayerControllerMP.java" md5: 0d63076e9cb8bb696953cfa27c2c30de
+endProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinPlayerControllerMP.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/components/widgets/WurstplusButton.java" md5: 002d4445d027b45d7f9b98a9c5a846fa
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/components/widgets/WurstplusButton.java"
+startProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinRenderLivingBase.java" md5: 7f38a193bb2fdf6e3304c1d10a556f78
+endProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinRenderLivingBase.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/components/widgets/WurstplusButtonBind.java" md5: 9eff2fa191906258a21d4f12891289eb
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/components/widgets/WurstplusButtonBind.java"
+startProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinRenderPlayer.java" md5: ad5697ce48781061d478b46ac7d5eb4f
+endProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinRenderPlayer.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/components/widgets/WurstplusCombobox.java" md5: 48e47cabaff07230f40abee7bda18574
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/components/widgets/WurstplusCombobox.java"
+startProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinWorld.java" md5: c35d585bb2258c01eaa4f4bc02f2207f
+endProcessing "me/eonexe/chungus/hack/mixins/WurstplusMixinWorld.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/components/widgets/WurstplusLabel.java" md5: a21824dc58a76fe634570f2c8bc2c739
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/components/widgets/WurstplusLabel.java"
+startProcessing "me/eonexe/chungus/hack/modules/WurstplusCategory.java" md5: 8f6d18489813545d60f983f8e23873c0
+endProcessing "me/eonexe/chungus/hack/modules/WurstplusCategory.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/components/widgets/WurstplusSlider.java" md5: a1eaf23f2a25a2f804e8c63f3615f804
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/components/widgets/WurstplusSlider.java"
+startProcessing "me/eonexe/chungus/hack/modules/WurstplusClickGUI.java" md5: a6a362a1d52d44b161887eede89d7cf3
+endProcessing "me/eonexe/chungus/hack/modules/WurstplusClickGUI.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/pinnables/WurstplusFrame.java" md5: 72d6649bceb6b48f12183688fda871ea
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/pinnables/WurstplusFrame.java"
+startProcessing "me/eonexe/chungus/hack/modules/WurstplusClickHUD.java" md5: 6446a4513b2a58dd88c06e6f34690f4d
+endProcessing "me/eonexe/chungus/hack/modules/WurstplusClickHUD.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/pinnables/WurstplusPinnable.java" md5: f7080e1849c4e225d8de51ae8639baed
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/pinnables/WurstplusPinnable.java"
+startProcessing "me/eonexe/chungus/hack/modules/WurstplusHack.java" md5: 8948fb38c147a93dcc49baf7e32b1e48
+endProcessing "me/eonexe/chungus/hack/modules/WurstplusHack.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/pinnables/WurstplusPinnableButton.java" md5: 8c839d4e02a111034ea4c664b1e36af0
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/render/pinnables/WurstplusPinnableButton.java"
+startProcessing "me/eonexe/chungus/hack/modules/chat/WurstplusAnnouncer.java" md5: 7c5497dc3093587e8d7f1d9fdb750e9d
+endProcessing "me/eonexe/chungus/hack/modules/chat/WurstplusAnnouncer.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/settings/WurstplusSetting.java" md5: 4730f4e97b835fca9707c6c25f6d26dc
-endProcessing "me/travis/wurstplus/wurstplustwo/guiscreen/settings/WurstplusSetting.java"
+startProcessing "me/eonexe/chungus/hack/modules/chat/WurstplusAntiRacist.java" md5: c5835f30e22feefe2a7b9c1f60df5643
+endProcessing "me/eonexe/chungus/hack/modules/chat/WurstplusAntiRacist.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/WurstplusCategory.java" md5: d5be2f916731ed29cff323c7fbfdc8d9
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/WurstplusCategory.java"
+startProcessing "me/eonexe/chungus/hack/modules/chat/WurstplusAutoEz.java" md5: b3735ccd04c17255eb2ce05e01fe31d8
+endProcessing "me/eonexe/chungus/hack/modules/chat/WurstplusAutoEz.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/WurstplusClickGUI.java" md5: f70091748a3b95db4f237b488c4bf9a7
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/WurstplusClickGUI.java"
+startProcessing "me/eonexe/chungus/hack/modules/chat/WurstplusChatMods.java" md5: 3308d6345095407dfcd6e59ec6bdc4d7
+endProcessing "me/eonexe/chungus/hack/modules/chat/WurstplusChatMods.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/WurstplusClickHUD.java" md5: 151c3c1e5413f49fe70b6f067082984a
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/WurstplusClickHUD.java"
+startProcessing "me/eonexe/chungus/hack/modules/chat/WurstplusChatSuffix.java" md5: b16bf3f1f7412c0c98622717ac07acb9
+endProcessing "me/eonexe/chungus/hack/modules/chat/WurstplusChatSuffix.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/WurstplusHack.java" md5: 1ce272637c135306cd4dc7df611cc5d9
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/WurstplusHack.java"
+startProcessing "me/eonexe/chungus/hack/modules/chat/WurstplusClearChat.java" md5: 6d25ff18d96714aeafa89f131d199f3f
+endProcessing "me/eonexe/chungus/hack/modules/chat/WurstplusClearChat.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/chat/WurstplusAnnouncer.java" md5: e63078ed3f90c4d0519e917782bece9f
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/chat/WurstplusAnnouncer.java"
+startProcessing "me/eonexe/chungus/hack/modules/chat/WurstplusTotempop.java" md5: 15b3e016d9ca927b3594ecc86a7797dc
+endProcessing "me/eonexe/chungus/hack/modules/chat/WurstplusTotempop.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/chat/WurstplusAntiRacist.java" md5: a60fd5bc9fea1449fff31080484cbf3d
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/chat/WurstplusAntiRacist.java"
+startProcessing "me/eonexe/chungus/hack/modules/chat/WurstplusVisualRange.java" md5: db49ad6222e7623e91fdb67fad8f93b0
+endProcessing "me/eonexe/chungus/hack/modules/chat/WurstplusVisualRange.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/chat/WurstplusAutoEz.java" md5: a86dc81772a1cb47ed6e6869ecf55305
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/chat/WurstplusAutoEz.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusAuto32k.java" md5: c5c2a0ab465514e94dbad7bbee07a2c8
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusAuto32k.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/chat/WurstplusChatMods.java" md5: 4f9e4ee88affe497e166a4e0a2813ab8
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/chat/WurstplusChatMods.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusAutoArmour.java" md5: 4d83b4c543ca41baf652641847d61069
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusAutoArmour.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/chat/WurstplusChatSuffix.java" md5: 24b9b1923dee624735039190c1328d42
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/chat/WurstplusChatSuffix.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusAutoCrystal.java" md5: fec56b81a996df048c764b7bfefa457c
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusAutoCrystal.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/chat/WurstplusClearChat.java" md5: ce837253b2b19b5ad6407415b646017e
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/chat/WurstplusClearChat.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusAutoGapple.java" md5: 986b576f405a7a000abb1316bdbc2d90
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusAutoGapple.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/chat/WurstplusTotempop.java" md5: 3468d984e99b44d5f9f82f85e88a787e
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/chat/WurstplusTotempop.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusAutoMine.java" md5: 57942f234a15a8422ebe03d568c0c24f
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusAutoMine.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/chat/WurstplusVisualRange.java" md5: eac8cccfbcebb38f58e43179c2fc5209
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/chat/WurstplusVisualRange.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusAutoTotem.java" md5: ed06c82f8f874685eeda561ce3108954
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusAutoTotem.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusAuto32k.java" md5: c63ab478139e4b1fdc1b9bbed322fd0c
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusAuto32k.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusAutoWeb.java" md5: c5c4f3987478bfd36ebac3d1e190ee34
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusAutoWeb.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusAutoArmour.java" md5: bb9c1c521bd2b93fae323bb40f30c51c
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusAutoArmour.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusBedAura.java" md5: 816fddf218883a1b74de82bc505f81d8
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusBedAura.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusAutoCrystal.java" md5: d735e3aee04863dada9b252cb0c465af
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusAutoCrystal.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusCriticals.java" md5: 15dd108a66baeac0bfe847917132574d
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusCriticals.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusAutoGapple.java" md5: 2c6f8c55865c96797bbd3066c9d220ba
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusAutoGapple.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusHoleFill.java" md5: add96f44bcc5696a5eca9b730a74906f
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusHoleFill.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusAutoMine.java" md5: 0ff253ab399718621062873d2500b0a4
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusAutoMine.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusKillAura.java" md5: 074ff74b2c0c93dcd67fa193985ab99e
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusKillAura.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusAutoTotem.java" md5: ec83deb9b3334bb425fa9a07512985dd
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusAutoTotem.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusOffhand.java" md5: bfb97dd1020bf01e2c915d76731bb67b
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusOffhand.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusAutoWeb.java" md5: 0eff1fcd4fe76302457c33493f29db1e
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusAutoWeb.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusSelfTrap.java" md5: cf36c303772e737000decb81e17256d6
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusSelfTrap.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusBedAura.java" md5: 1f471ae7caa425a5ada87976d452afbb
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusBedAura.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusSocks.java" md5: 7d6c478dfde59874b3fe6328a24a241d
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusSocks.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusCriticals.java" md5: ebfde7509f4485cec55cadace8106685
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusCriticals.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusSurround.java" md5: 6e0ba63356295728f3524aa60a6ea401
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusSurround.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusHoleFill.java" md5: 2807e0139999c9a99e333ff1fe1faa34
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusHoleFill.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusTrap.java" md5: 628c734fd0a518b12c3b60ba65a50bc5
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusTrap.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusKillAura.java" md5: 452a62dc5087c9097be9febf1a44457c
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusKillAura.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusVelocity.java" md5: 60a7a24ccd4e273f85daaa4eaf5d1b92
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusVelocity.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusOffhand.java" md5: c5beba5029d035dbd9054eb523afff9f
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusOffhand.java"
+startProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusWebfill.java" md5: 583ba87b788741766a168430b0212d40
+endProcessing "me/eonexe/chungus/hack/modules/combat/WurstplusWebfill.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusSelfTrap.java" md5: 65fae7ce4c2e8e07d3650a2be040e040
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusSelfTrap.java"
+startProcessing "me/eonexe/chungus/hack/modules/dev/AutoTNTCart.java" md5: b9526800d7abe8398ad92c91b7c54f9c
+endProcessing "me/eonexe/chungus/hack/modules/dev/AutoTNTCart.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusSocks.java" md5: 94d30613b5b8f90e1cd745f4e592ad86
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusSocks.java"
+startProcessing "me/eonexe/chungus/hack/modules/dev/Burrow.java" md5: 017dc1706353b0ed71bca34c93117ecf
+endProcessing "me/eonexe/chungus/hack/modules/dev/Burrow.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusSurround.java" md5: dfbdf377a03fefacaf74c7ea39b3e6f8
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusSurround.java"
+startProcessing "me/eonexe/chungus/hack/modules/dev/Chungus.java" md5: 9c68134c314d2c5ec30512179b3ec028
+endProcessing "me/eonexe/chungus/hack/modules/dev/Chungus.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusTrap.java" md5: e2433ab420450e7f440f5a0d5b728017
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusTrap.java"
+startProcessing "me/eonexe/chungus/hack/modules/dev/Elevator.java" md5: 452d5d93c4d6cecc8dd79db7c0a16ced
+endProcessing "me/eonexe/chungus/hack/modules/dev/Elevator.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusVelocity.java" md5: c0a873e25db9936ee729a69faf037d59
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusVelocity.java"
+startProcessing "me/eonexe/chungus/hack/modules/dev/WurstplusDebug.java" md5: 16060e84cf35b026dab24f4948fe3b44
+endProcessing "me/eonexe/chungus/hack/modules/dev/WurstplusDebug.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusWebfill.java" md5: bdf8ded18be66dffc6b4f6a5d2a9d6c1
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/combat/WurstplusWebfill.java"
+startProcessing "me/eonexe/chungus/hack/modules/dev/WurstplusElytraFly.java" md5: b2edfcc27179ea59371bd9f02895503d
+endProcessing "me/eonexe/chungus/hack/modules/dev/WurstplusElytraFly.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/dev/AutoTNTCart.java" md5: 8dac65302bb42594b61465fcfba861fd
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/dev/AutoTNTCart.java"
+startProcessing "me/eonexe/chungus/hack/modules/dev/WurstplusFakePlayer.java" md5: 1ee047181cc429be2875352bbc602ee8
+endProcessing "me/eonexe/chungus/hack/modules/dev/WurstplusFakePlayer.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/dev/Burrow.java" md5: 12f280a0e42979d7f6dc8dc063b42135
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/dev/Burrow.java"
+startProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusBuildHeight.java" md5: 753a3b2aee06b7588a44e850f82f6280
+endProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusBuildHeight.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/dev/Chungus.java" md5: 7e83f53d64765cfd514958437c324138
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/dev/Chungus.java"
+startProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusCoordExploit.java" md5: 83cc4038638385862e0037f7e23f10ea
+endProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusCoordExploit.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/dev/WurstplusDebug.java" md5: b04a9ea9cb4de6a2cbaa9372691bcbc3
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/dev/WurstplusDebug.java"
+startProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusEntityMine.java" md5: 1ff69fbf992a57422e5b411c2aa9a0b6
+endProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusEntityMine.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/dev/WurstplusElytraFly.java" md5: 5db29923a694299ca5fbf7be8112ebc8
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/dev/WurstplusElytraFly.java"
+startProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusNoHandshake.java" md5: f097c93b530c3f6bcc1db4857824b2c5
+endProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusNoHandshake.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/dev/WurstplusFakePlayer.java" md5: 027425c1805fa5d0d04069f1bb1738fa
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/dev/WurstplusFakePlayer.java"
+startProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusNoSwing.java" md5: a059157650b685da8b54a197bfb9af7f
+endProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusNoSwing.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusBuildHeight.java" md5: 6851a988f3df4ca57ad12e32c8e17700
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusBuildHeight.java"
+startProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusPacketMine.java" md5: 040c175e079dd581090f796abac98d9d
+endProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusPacketMine.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusCoordExploit.java" md5: 3af1d8fa47b8efec23cc26689921972c
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusCoordExploit.java"
+startProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusPortalGodMode.java" md5: baa459b7edeb27e7d65290d16fedc1ec
+endProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusPortalGodMode.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusEntityMine.java" md5: 95a381d42d743ebcb1974b1a9e17e553
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusEntityMine.java"
+startProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusSpeedmine.java" md5: 27b98e9e152e17995d39aba8158cf719
+endProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusSpeedmine.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusNoHandshake.java" md5: 33cb798e08e8b86dbdecf9976a16f956
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusNoHandshake.java"
+startProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusXCarry.java" md5: 2c2ef870070e0948b73dd8e5d1adf8b6
+endProcessing "me/eonexe/chungus/hack/modules/exploit/WurstplusXCarry.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusNoSwing.java" md5: 93977ea2a28c8f36ce47ed0ad18cc60f
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusNoSwing.java"
+startProcessing "me/eonexe/chungus/hack/modules/misc/WurstplusAutoNomadHut.java" md5: ff2d227aea59b41125878da58a8bd2ed
+endProcessing "me/eonexe/chungus/hack/modules/misc/WurstplusAutoNomadHut.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusPacketMine.java" md5: 43ae88cecca6f66c26f97080af0dcc6f
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusPacketMine.java"
+startProcessing "me/eonexe/chungus/hack/modules/misc/WurstplusAutoReplenish.java" md5: 366ace120c72baef974e13b1ff92bf9e
+endProcessing "me/eonexe/chungus/hack/modules/misc/WurstplusAutoReplenish.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusPortalGodMode.java" md5: 6ebd85bdf4a6b6df8da436635ea29895
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusPortalGodMode.java"
+startProcessing "me/eonexe/chungus/hack/modules/misc/WurstplusAutoWither.java" md5: dcb3ebebda0009e32968e889134b570d
+endProcessing "me/eonexe/chungus/hack/modules/misc/WurstplusAutoWither.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusSpeedmine.java" md5: 7c7f09e3a2790b16b5b8510eaea37b53
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusSpeedmine.java"
+startProcessing "me/eonexe/chungus/hack/modules/misc/WurstplusFastUtil.java" md5: bb9fc1394333cc7afde8fdda1bf5208e
+endProcessing "me/eonexe/chungus/hack/modules/misc/WurstplusFastUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusXCarry.java" md5: cb4bce509da16398d6531daef9d13f24
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/exploit/WurstplusXCarry.java"
+startProcessing "me/eonexe/chungus/hack/modules/misc/WurstplusMiddleClickFriends.java" md5: 346ef1a14aa4985744741e84a31bc751
+endProcessing "me/eonexe/chungus/hack/modules/misc/WurstplusMiddleClickFriends.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/misc/WurstplusAutoNomadHut.java" md5: 1865d3821bc671124210e9dc2206d3a6
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/misc/WurstplusAutoNomadHut.java"
+startProcessing "me/eonexe/chungus/hack/modules/misc/WurstplusStopEXP.java" md5: 8389f9f0e8d7c16bd94b05bdd25cbb0d
+endProcessing "me/eonexe/chungus/hack/modules/misc/WurstplusStopEXP.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/misc/WurstplusAutoReplenish.java" md5: e2f66e093cf6d6515f7ff778efdf4591
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/misc/WurstplusAutoReplenish.java"
+startProcessing "me/eonexe/chungus/hack/modules/movement/WurstPlusAnchor.java" md5: bf65574c1f72b576a5dff2bdaa47ac6d
+endProcessing "me/eonexe/chungus/hack/modules/movement/WurstPlusAnchor.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/misc/WurstplusAutoWither.java" md5: 44903c36005b51c6b08f8764be320a29
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/misc/WurstplusAutoWither.java"
+startProcessing "me/eonexe/chungus/hack/modules/movement/WurstplusSprint.java" md5: 4ca17d3f5fb4af1cc903decdf02fa38b
+endProcessing "me/eonexe/chungus/hack/modules/movement/WurstplusSprint.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/misc/WurstplusFastUtil.java" md5: 460ea5b04ef013449eb98f6ee8961cd3
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/misc/WurstplusFastUtil.java"
+startProcessing "me/eonexe/chungus/hack/modules/movement/WurstplusStep.java" md5: 911b1199449ebf0878b56cbba6db9e02
+endProcessing "me/eonexe/chungus/hack/modules/movement/WurstplusStep.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/misc/WurstplusMiddleClickFriends.java" md5: 235eee7d1531d96fdab6bfe26f7bf7fb
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/misc/WurstplusMiddleClickFriends.java"
+startProcessing "me/eonexe/chungus/hack/modules/movement/WurstplusStrafe.java" md5: 951af80606bd5159c2e2f93242925c0c
+endProcessing "me/eonexe/chungus/hack/modules/movement/WurstplusStrafe.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/misc/WurstplusStopEXP.java" md5: 2a8198830e70527e6274cf278d298055
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/misc/WurstplusStopEXP.java"
+startProcessing "me/eonexe/chungus/hack/modules/render/WurstplusAlwaysNight.java" md5: 38f62f65ae7df5160f7e6e690f608427
+endProcessing "me/eonexe/chungus/hack/modules/render/WurstplusAlwaysNight.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/movement/WurstPlusAnchor.java" md5: 5fadf16b5bef78f7d07579d869122126
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/movement/WurstPlusAnchor.java"
+startProcessing "me/eonexe/chungus/hack/modules/render/WurstplusAntifog.java" md5: 9920980ba058e35843d11ee7d09e45b4
+endProcessing "me/eonexe/chungus/hack/modules/render/WurstplusAntifog.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/movement/WurstplusSprint.java" md5: f56161803493ccf4783cd5fe965ab7e5
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/movement/WurstplusSprint.java"
+startProcessing "me/eonexe/chungus/hack/modules/render/WurstplusCapes.java" md5: 93b08d833fb6726c4e0143c3d66f1be3
+endProcessing "me/eonexe/chungus/hack/modules/render/WurstplusCapes.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/movement/WurstplusStep.java" md5: b81451c9a831a0adf1a1160f4958d0eb
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/movement/WurstplusStep.java"
+startProcessing "me/eonexe/chungus/hack/modules/render/WurstplusChams.java" md5: 6962a9bf1820fa995474c2bd19a8a401
+endProcessing "me/eonexe/chungus/hack/modules/render/WurstplusChams.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/movement/WurstplusStrafe.java" md5: 7b9331aedff8dcc2c5bfbe422b4a1232
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/movement/WurstplusStrafe.java"
+startProcessing "me/eonexe/chungus/hack/modules/render/WurstplusCityEsp.java" md5: ce382179605210a5e8b3962e1b82e2a0
+endProcessing "me/eonexe/chungus/hack/modules/render/WurstplusCityEsp.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusAlwaysNight.java" md5: a67a25ee3017c587c932b43d6801eb50
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusAlwaysNight.java"
+startProcessing "me/eonexe/chungus/hack/modules/render/WurstplusFuckedDetector.java" md5: 1233f880de97757b714e3e3d2dac7a77
+endProcessing "me/eonexe/chungus/hack/modules/render/WurstplusFuckedDetector.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusAntifog.java" md5: c672871c91a2a924613dfbd00236c564
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusAntifog.java"
+startProcessing "me/eonexe/chungus/hack/modules/render/WurstplusHighlight.java" md5: 5875780dcb9c9b831d122375e61e8e19
+endProcessing "me/eonexe/chungus/hack/modules/render/WurstplusHighlight.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusCapes.java" md5: 96e41affee7d402d7a91a498952bb76a
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusCapes.java"
+startProcessing "me/eonexe/chungus/hack/modules/render/WurstplusHoleESP.java" md5: e2d1bfa2df3a4ab223cc188213c227b7
+endProcessing "me/eonexe/chungus/hack/modules/render/WurstplusHoleESP.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusChams.java" md5: ce79c442dda2588eedb8595e84a2a5c0
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusChams.java"
+startProcessing "me/eonexe/chungus/hack/modules/render/WurstplusLogSpots.java" md5: 7432a8288390baa4ab8effb745ae9634
+endProcessing "me/eonexe/chungus/hack/modules/render/WurstplusLogSpots.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusCityEsp.java" md5: d73c0f0761f4fef7dbc1fc403d671869
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusCityEsp.java"
+startProcessing "me/eonexe/chungus/hack/modules/render/WurstplusNameTags.java" md5: 39f44b55ac4ae5caa9bc2f71dd34fc76
+endProcessing "me/eonexe/chungus/hack/modules/render/WurstplusNameTags.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusFuckedDetector.java" md5: 39651ae26c74a83124f7b94d308e9cc2
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusFuckedDetector.java"
+startProcessing "me/eonexe/chungus/hack/modules/render/WurstplusShulkerPreview.java" md5: 6450bc8ae50270ff4590fc3c8086b613
+endProcessing "me/eonexe/chungus/hack/modules/render/WurstplusShulkerPreview.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusHighlight.java" md5: 6b2350fc8a46f4f6b0ba308f43d848ad
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusHighlight.java"
+startProcessing "me/eonexe/chungus/hack/modules/render/WurstplusSkyColour.java" md5: 3a38b8cd35e51b2c209f542cdbdf5fda
+endProcessing "me/eonexe/chungus/hack/modules/render/WurstplusSkyColour.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusHoleESP.java" md5: 33f6cec528f47b24ae481d88bff7bd4f
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusHoleESP.java"
+startProcessing "me/eonexe/chungus/hack/modules/render/WurstplusTracers.java" md5: 51c43b087b3ddb5be62a382051e89a63
+endProcessing "me/eonexe/chungus/hack/modules/render/WurstplusTracers.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusLogSpots.java" md5: 6c1fc3a556ce26950bd7b85d97694066
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusLogSpots.java"
+startProcessing "me/eonexe/chungus/hack/modules/render/WurstplusViewmodleChanger.java" md5: 55ca030c663d2c1f260e29048fd886b6
+endProcessing "me/eonexe/chungus/hack/modules/render/WurstplusViewmodleChanger.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusNameTags.java" md5: a727a3f3450e5afb2d8690e79598263a
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusNameTags.java"
+startProcessing "me/eonexe/chungus/hack/modules/render/WurstplusVoidESP.java" md5: e9925e1edeb74522b390b6816e89d680
+endProcessing "me/eonexe/chungus/hack/modules/render/WurstplusVoidESP.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusShulkerPreview.java" md5: a8881fff51243eed6b99994fb89cbba8
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusShulkerPreview.java"
+startProcessing "me/eonexe/chungus/hack/util/BurrowUtil.java" md5: 594d982b71dd36c7ff1aa48faf168728
+endProcessing "me/eonexe/chungus/hack/util/BurrowUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusSkyColour.java" md5: 92db6e49426c8e25ed60093bb616113e
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusSkyColour.java"
+startProcessing "me/eonexe/chungus/hack/util/FrameUtil.java" md5: 10f47b20b0c519247ca2547bd61564fd
+endProcessing "me/eonexe/chungus/hack/util/FrameUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusTracers.java" md5: ec5253c5b12df21f74ce20b5f3bae2ea
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusTracers.java"
+startProcessing "me/eonexe/chungus/hack/util/HWIDUtil.java" md5: 08234d53f6c3021c3bbe73f06e79112d
+endProcessing "me/eonexe/chungus/hack/util/HWIDUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusViewmodleChanger.java" md5: 3d1f495bdfd58496d04296e7d9467b71
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusViewmodleChanger.java"
+startProcessing "me/eonexe/chungus/hack/util/NetworkUtil.java" md5: de3ccb15f10c4bf806b069642e9b85c1
+endProcessing "me/eonexe/chungus/hack/util/NetworkUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusVoidESP.java" md5: eec09a268318154cc44dafd91be2c4f2
-endProcessing "me/travis/wurstplus/wurstplustwo/hacks/render/WurstplusVoidESP.java"
+startProcessing "me/eonexe/chungus/hack/util/NoStackTraceThrowable.java" md5: 534b33a5daa5f233c4d10f99002d873b
+endProcessing "me/eonexe/chungus/hack/util/NoStackTraceThrowable.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/manager/WurstplusCommandManager.java" md5: 751fcf79c490d3a20f7e96609649c04a
-endProcessing "me/travis/wurstplus/wurstplustwo/manager/WurstplusCommandManager.java"
+startProcessing "me/eonexe/chungus/hack/util/Wrapper.java" md5: 63a8dc16871ab016df062ee75aa8992e
+endProcessing "me/eonexe/chungus/hack/util/Wrapper.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/manager/WurstplusConfigManager.java" md5: 9bfb1519712047c518b3fe6208d1b3c9
-endProcessing "me/travis/wurstplus/wurstplustwo/manager/WurstplusConfigManager.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusBlockInteractHelper.java" md5: 5aa48e4caaa4b30fe8ba2c1cad64dfe0
+endProcessing "me/eonexe/chungus/hack/util/WurstplusBlockInteractHelper.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/manager/WurstplusEventManager.java" md5: 5e9289494fef79d38e0e3a9563e3c867
-endProcessing "me/travis/wurstplus/wurstplustwo/manager/WurstplusEventManager.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusBlockInteractionHelper.java" md5: c68bb46f4ca8c9cafd3099a3a86ba163
+endProcessing "me/eonexe/chungus/hack/util/WurstplusBlockInteractionHelper.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/manager/WurstplusHUDManager.java" md5: bc67e68e66b7cfd5233358abdad45cef
-endProcessing "me/travis/wurstplus/wurstplustwo/manager/WurstplusHUDManager.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusBlockUtil.java" md5: aefed9c77c191095ed94629d49f7e045
+endProcessing "me/eonexe/chungus/hack/util/WurstplusBlockUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/manager/WurstplusModuleManager.java" md5: 91e44a7ebee963c57bc4ecce7d616d0f
-endProcessing "me/travis/wurstplus/wurstplustwo/manager/WurstplusModuleManager.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusBreakUtil.java" md5: da89025d67e2cd925a923858b3544693
+endProcessing "me/eonexe/chungus/hack/util/WurstplusBreakUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/manager/WurstplusSettingManager.java" md5: 6c6d89b070aff2fdb4fae11e64e27ddc
-endProcessing "me/travis/wurstplus/wurstplustwo/manager/WurstplusSettingManager.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusCapeUtil.java" md5: cb5eb2a35a30f5e73612ca087d46d670
+endProcessing "me/eonexe/chungus/hack/util/WurstplusCapeUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/BurrowUtil.java" md5: b6d3c45dc7492fb6699c1c8466d13052
-endProcessing "me/travis/wurstplus/wurstplustwo/util/BurrowUtil.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusCrystalUtil.java" md5: 1cbdf5d8ff42a0e9df53f019375b025d
+endProcessing "me/eonexe/chungus/hack/util/WurstplusCrystalUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/FrameUtil.java" md5: 80aa1ce46a447f4d195edebc1bff7532
-endProcessing "me/travis/wurstplus/wurstplustwo/util/FrameUtil.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusDamageUtil.java" md5: a9444b0e7a0f2938bcb06b42b26acd09
+endProcessing "me/eonexe/chungus/hack/util/WurstplusDamageUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/HWIDUtil.java" md5: f65f06c9084cf733c75470c5c091cf06
-endProcessing "me/travis/wurstplus/wurstplustwo/util/HWIDUtil.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusDiscordUtil.java" md5: ae29ce6b327a43ba0851a5d94192dbf4
+endProcessing "me/eonexe/chungus/hack/util/WurstplusDiscordUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/NetworkUtil.java" md5: 2a2611efd31e9a81cebb32aa0f04f0fb
-endProcessing "me/travis/wurstplus/wurstplustwo/util/NetworkUtil.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusDrawnUtil.java" md5: 7a867383021eae9a939ccdfdfcad3ff7
+endProcessing "me/eonexe/chungus/hack/util/WurstplusDrawnUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/NoStackTraceThrowable.java" md5: 7c6689a0fcd10bdf497abf814a84ba79
-endProcessing "me/travis/wurstplus/wurstplustwo/util/NoStackTraceThrowable.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusEnemyUtil.java" md5: 4155f9d618b12da7ba63f2bfe5befa72
+endProcessing "me/eonexe/chungus/hack/util/WurstplusEnemyUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/Wrapper.java" md5: 8c391be67b456ac7bc3b16afb8e705e7
-endProcessing "me/travis/wurstplus/wurstplustwo/util/Wrapper.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusEntityUtil.java" md5: 2cba583679998973caf4472e33eef3dd
+endProcessing "me/eonexe/chungus/hack/util/WurstplusEntityUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusBlockInteractHelper.java" md5: c08a437d888d1806fcca09f18ba62310
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusBlockInteractHelper.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusEzMessageUtil.java" md5: f87b61f8e754a201c8011b66b505c2d6
+endProcessing "me/eonexe/chungus/hack/util/WurstplusEzMessageUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusBlockInteractionHelper.java" md5: e9d8fb21278df7f21aa3071f63c3550e
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusBlockInteractionHelper.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusFriendUtil.java" md5: 014f873bc1f03c302fabaf387aafbcd5
+endProcessing "me/eonexe/chungus/hack/util/WurstplusFriendUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusBlockUtil.java" md5: 738ed135326bf5fbffda4757d39068b9
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusBlockUtil.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusMathUtil.java" md5: 698a1ce74551e265a5c8795b5721fbb8
+endProcessing "me/eonexe/chungus/hack/util/WurstplusMathUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusBreakUtil.java" md5: 335c38a9a52ce5e8b6c77204b5acd62d
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusBreakUtil.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusMessageUtil.java" md5: 3e8ba2f51dac16d22246b047ecdffd7c
+endProcessing "me/eonexe/chungus/hack/util/WurstplusMessageUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusCapeUtil.java" md5: da14af587030131c883e59c5f8a49cb5
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusCapeUtil.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusOnlineFriends.java" md5: fdfec7f78f51b88bd2d15fc0ad5be53a
+endProcessing "me/eonexe/chungus/hack/util/WurstplusOnlineFriends.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusCrystalUtil.java" md5: a66beceeb869d30ea7bb7d21ebf406a4
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusCrystalUtil.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusPair.java" md5: cd95563b68af4bf25880499c9349e5fd
+endProcessing "me/eonexe/chungus/hack/util/WurstplusPair.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusDamageUtil.java" md5: 911d6f776f98a91c09836bd68ffd2188
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusDamageUtil.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusPlayerUtil.java" md5: bcd7a63f2a394d848d297845da47fc68
+endProcessing "me/eonexe/chungus/hack/util/WurstplusPlayerUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusDiscordUtil.java" md5: ec2a99c4d6c664ce4951f1d1b5e1ddcf
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusDiscordUtil.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusPosManager.java" md5: 20ad601fa82b3539050ff60bc419965d
+endProcessing "me/eonexe/chungus/hack/util/WurstplusPosManager.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusDrawnUtil.java" md5: bd4e3ee03a1a20b355b13e9e9a602427
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusDrawnUtil.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusRenderUtil.java" md5: 13761cfd4a67565691752aed1a6ab829
+endProcessing "me/eonexe/chungus/hack/util/WurstplusRenderUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusEnemyUtil.java" md5: 4ad90f8b1a8767784646f90cce5152ac
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusEnemyUtil.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusRotationUtil.java" md5: ffa9e16590642ffe30a23da7fa09f076
+endProcessing "me/eonexe/chungus/hack/util/WurstplusRotationUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusEntityUtil.java" md5: 25fb50e7c7cc4e46b285ae3a0d620339
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusEntityUtil.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusTabUtil.java" md5: cb6ae1885f3f3c865238722e7561bb32
+endProcessing "me/eonexe/chungus/hack/util/WurstplusTabUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusEzMessageUtil.java" md5: c9c5b769abcd17a82f7c1c09b6938a6f
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusEzMessageUtil.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusTextureHelper.java" md5: 215ea47243ea5fa024dd86888d804583
+endProcessing "me/eonexe/chungus/hack/util/WurstplusTextureHelper.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusFriendUtil.java" md5: 0ccc94fe5b51f889a0aabd32c7de188b
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusFriendUtil.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusTimeUtil.java" md5: 7cc7d5a3a9631557eadb9de608b2c79c
+endProcessing "me/eonexe/chungus/hack/util/WurstplusTimeUtil.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusMathUtil.java" md5: e2d06c2ad8fa666d0af26ff180fbbc21
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusMathUtil.java"
+startProcessing "me/eonexe/chungus/hack/util/WurstplusTimer.java" md5: 792abeca74e03afa6ded9fcf4b51114c
+endProcessing "me/eonexe/chungus/hack/util/WurstplusTimer.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusMessageUtil.java" md5: 865695aaa998caf0777ec6ebcb5343c5
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusMessageUtil.java"
+startProcessing "me/eonexe/turok/Turok.java" md5: d1a1dfbc0aa6cf941bf53ec1767d5423
+endProcessing "me/eonexe/turok/Turok.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusOnlineFriends.java" md5: b0431ff19714f8af85b18f2ab4dc94d9
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusOnlineFriends.java"
+startProcessing "me/eonexe/turok/draw/GL.java" md5: 99166daf5a90839eb50b3425ad8957f1
+endProcessing "me/eonexe/turok/draw/GL.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusPair.java" md5: d3f97879ab48017fe69678f0e563d297
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusPair.java"
+startProcessing "me/eonexe/turok/draw/RenderHelp.java" md5: bd2b9b1250a6f58abb5774ab5d9ee82a
+endProcessing "me/eonexe/turok/draw/RenderHelp.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusPlayerUtil.java" md5: 585ab1bcde241413093f8aaa1c665854
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusPlayerUtil.java"
+startProcessing "me/eonexe/turok/task/Font.java" md5: 7c541580a0ee7b06fd8f1599acb68cbd
+endProcessing "me/eonexe/turok/task/Font.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusPosManager.java" md5: 5faf2a46bfdea1eee9762ec66c949680
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusPosManager.java"
+startProcessing "me/eonexe/turok/task/Rect.java" md5: dfb896998b12747f7f961bcc962a0540
+endProcessing "me/eonexe/turok/task/Rect.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusRenderUtil.java" md5: 84c0308518aece5cd807ce402925bde2
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusRenderUtil.java"
+startProcessing "me/eonexe/turok/values/TurokBoolean.java" md5: 3695283b0ccfb1b44376d5cca4c550c7
+endProcessing "me/eonexe/turok/values/TurokBoolean.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusRotationUtil.java" md5: 9e4ca89b8a5fe738a797df01f5577601
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusRotationUtil.java"
+startProcessing "me/eonexe/turok/values/TurokDouble.java" md5: 86d17453bb885b053e6e990e2129ab26
+endProcessing "me/eonexe/turok/values/TurokDouble.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusTabUtil.java" md5: ff63465dd1ee2f047c9b5259874736e3
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusTabUtil.java"
+startProcessing "me/eonexe/turok/values/TurokEnum.java" md5: 940e973d5e2eb0c22215deb81ffa5ea4
+endProcessing "me/eonexe/turok/values/TurokEnum.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusTextureHelper.java" md5: 73f9c4abc19a10b9cfb351f104858439
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusTextureHelper.java"
+startProcessing "me/eonexe/turok/values/TurokFloat.java" md5: 2db47e063dd1194d5e4a44a6203e12eb
+endProcessing "me/eonexe/turok/values/TurokFloat.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusTimeUtil.java" md5: c2d6505a7b9f5b83383fa2dae451ef36
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusTimeUtil.java"
+startProcessing "me/eonexe/turok/values/TurokGeneric.java" md5: 5df796375b57109c0ea9566a8b3e9a85
+endProcessing "me/eonexe/turok/values/TurokGeneric.java"
 
-startProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusTimer.java" md5: 66844caec3629433767e196e23b313a8
-endProcessing "me/travis/wurstplus/wurstplustwo/util/WurstplusTimer.java"
+startProcessing "me/eonexe/turok/values/TurokInt.java" md5: 80805ab08afcff10ede9bfccf045a04d
+endProcessing "me/eonexe/turok/values/TurokInt.java"
+
+startProcessing "me/eonexe/turok/values/TurokString.java" md5: 2d7aa24a772b6bcf9295724714de6d86
+endProcessing "me/eonexe/turok/values/TurokString.java"
 
