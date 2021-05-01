@@ -73,7 +73,7 @@ public class Chungus {
 
 		WurstplusEventHandler.INSTANCE = new WurstplusEventHandler();
 
-		send_minecraft_log("initialising managers");
+		send_minecraft_log("Initialising Managers");
 
 		setting_manager = new WurstplusSettingManager();
 		config_manager = new WurstplusConfigManager();
@@ -83,35 +83,35 @@ public class Chungus {
 		WurstplusEventManager event_manager = new WurstplusEventManager();
 		WurstplusCommandManager command_manager = new WurstplusCommandManager(); // hack
 
-		send_minecraft_log("done");
+		send_minecraft_log("Done");
 
-		send_minecraft_log("initialising guis");
+		send_minecraft_log("Initialising Guis");
 
 		Display.setTitle(Chungus.WURSTPLUS_NAME);
 		click_gui = new WurstplusGUI();
 		click_hud = new WurstplusHUD();
 
-		send_minecraft_log("done");
+		send_minecraft_log("Done");
 
-		send_minecraft_log("initialising skidded framework");
+		send_minecraft_log("Initialising Framework");
 
 		turok = new Turok("Turok");
 
-		send_minecraft_log("done");
+		send_minecraft_log("Done");
 
-		send_minecraft_log("initialising commands and events");
+		send_minecraft_log("Initialising Commands and Events");
 
 		// Register event modules and manager.
 		WurstplusEventRegister.register_command_manager(command_manager);
 		WurstplusEventRegister.register_module_manager(event_manager);
 
-		send_minecraft_log("done");
+		send_minecraft_log("Done");
 
-		send_minecraft_log("loading settings");
+		send_minecraft_log("Loading Settings");
 
 		config_manager.load_settings();
 
-		send_minecraft_log("done");
+		send_minecraft_log("Done");
 
 		if (module_manager.get_module_with_tag("GUI").is_active()) {
 			module_manager.get_module_with_tag("GUI").set_active(false);
@@ -121,15 +121,15 @@ public class Chungus {
 			module_manager.get_module_with_tag("HUD").set_active(false);
 		}
 
-		send_minecraft_log("client started");
-		send_minecraft_log("we gaming");
+		send_minecraft_log("Client Started");
+		send_minecraft_log("We Gaming");
 
 	}
 
 	public void init_log(String name) {
 		wurstplus_register_log = LogManager.getLogger(name);
 
-		send_minecraft_log("starting wurstplustwo");
+		send_minecraft_log("Starting Chungus");
 	}
 
 	public static void send_minecraft_log(String log) {
