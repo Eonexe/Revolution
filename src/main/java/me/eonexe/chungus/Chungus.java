@@ -25,8 +25,6 @@ import org.apache.logging.log4j.Logger;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.Display;
 
-//see this is what i mean the imports dont work, idk if its just for me or for everyone
-
 @Mod(modid = "chungushack", version = Chungus.WURSTPLUS_VERSION)
 public class Chungus {
 	
