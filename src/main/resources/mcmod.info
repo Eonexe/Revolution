@@ -1,13 +1,13 @@
 [{
-	"modid"        : "revolution",
-	"name"         : "Revolution",
+	"modid"        : "chungushack",
+	"name"         : "chungus",
 	"description"  : "chungus mod",
 	"version"      : "0.0.1",
 	"mcversion"    : "1.12.2-14.23.5.2772",
 	"url"          : "no",
 	"updateUrl"    : "no",
 	"authorList"   : ["Eonexe#0001, Solarus#8223"],
-	"credits"      : "Eonexe",
+	"credits"      : "Eonexe and Solarus",
 	"logoFile"     : "",
 	"screenshots"  : [],
 	"dependencies" : []
